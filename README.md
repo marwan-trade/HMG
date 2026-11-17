@@ -39,3 +39,8 @@ remplacez-les par des photos HD (au moins 1920 px de large pour les `hero-*`)
 ## Aperçu local
 
 Ouvrez simplement `index.html` dans un navigateur.
+
+## Version 2
+
+Le dossier `v2/` contient la version 2 du site (design bleu nuit à lignes lumineuses), aussi disponible sur la branche `HMGv2`.
+En ligne : https://marwan-trade.github.io/HMG/v2/
