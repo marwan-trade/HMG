@@ -324,3 +324,17 @@ details.more .fields{padding:0 16px 16px}
 /* Les sections hors écran ne sont pas calculées tant qu'on n'y arrive pas */
 .sec,.footer,.strip{content-visibility:auto;contain-intrinsic-size:auto 700px}
 .rays{contain:strict}
+
+/* =========== Mobile : bande des 4 prestations en icônes =========== */
+@media (max-width:640px){
+  .strip .container{grid-template-columns:repeat(4,1fr);gap:4px;padding:20px 0 18px;align-items:start}
+  .strip div,.strip div:last-child{align-self:start;height:auto;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;gap:9px;padding:4px 2px;border:0;border-radius:0;font-size:12px;line-height:1.25;font-weight:600}
+  .strip small{display:none}
+  .strip .ic{width:52px;height:52px;border-radius:16px}
+  .strip .ic svg{width:24px;height:24px}
+}
+/* Mobile : moins d'effets coûteux */
+@media (max-width:640px){
+  .svc,.feat,.prod img,.svc .ph img{transition:none}
+  .card,.svc,.feat{box-shadow:0 10px 24px -18px rgba(10,22,40,.35)}
+}
