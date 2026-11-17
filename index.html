@@ -3,79 +3,214 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HMG Global Business Solutions | Logistique, sourcing et conseil à Djibouti</title>
-<meta name="description" content="HMG Global Business Solutions accompagne vos opérations de logistique, de sourcing et de conseil à Djibouti.">
-<meta name="theme-color" content="#0b1f3a">
-<link rel="stylesheet" href="css/style.css">
+<title>HMG Global Business Solutions | Logistique, sourcing & conseil à Djibouti</title>
+<meta name="description" content="HMG Global Business Solutions coordonne vos transports, vos approvisionnements et vos projets à Djibouti et sur le corridor Djibouti–Éthiopie.">
+<link rel="canonical" href="https://hmgglobalgroup.com/">
+<meta property="og:url" content="https://hmgglobalgroup.com/">
+<meta property="og:title" content="HMG Global Business Solutions | Logistique, sourcing & conseil à Djibouti">
+<meta property="og:image" content="https://hmgglobalgroup.com/assets/port-aerial.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta name="theme-color" content="#0a1628">
+<link rel="stylesheet" href="css/hmg.css">
 </head>
 <body>
 
 <header class="header">
   <div class="container">
-    <a href="index.html" class="logo" aria-label="HMG Global Business Solutions – accueil"><b>HMG</b><span>Global Business<br>Solutions</span></a>
-    <input type="checkbox" id="nav-toggle" aria-hidden="true">
+    <a href="index.html" class="logo" aria-label="HMG Global Business Solutions – accueil">
+      <img src="assets/hmg-logo.png" alt="HMG Global Business Solutions" onerror="this.parentNode.classList.add('noimg')">
+      <span class="wordmark"><span>H<b>M</b>G</span><small>GLOBAL BUSINESS SOLUTIONS</small></span>
+    </a>
+    <input type="checkbox" id="nav-toggle" hidden>
     <label for="nav-toggle" class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></label>
     <div class="nav-area">
-      <ul class="menu">
-        <li><a href="index.html" class="active" aria-current="page">Accueil</a></li>
-        <li><a href="index.html#services">Nos services<span class="caret"></span></a>
-          <div class="dropdown">
-            <a href="logistique.html">Logistique &amp; Transport</a>
-            <a href="sourcing.html">Sourcing &amp; Négoce</a>
-            <a href="conseil.html">Conseil &amp; Accompagnement</a>
-          </div>
-        </li>
-        <li><a href="a-propos.html">À propos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="lang"><a href="#" class="on" hreflang="fr">FR</a>|<a href="#" hreflang="en">EN</a></div>
-      <a href="contact.html" class="btn btn-orange btn-sm">Demander un devis</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html" class="active" aria-current="page">Accueil</a>
+      <a href="logistique.html">Logistique &amp; Transport</a>
+      <a href="sourcing.html">Sourcing &amp; Négoce</a>
+      <a href="conseil.html">Conseil &amp; Accompagnement</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="lang" aria-label="Langue"><a href="#" hreflang="en" title="Bientôt disponible">EN</a><a class="on" href="index.html" hreflang="fr">FR</a><a href="#" hreflang="zh" title="Bientôt disponible">中文</a></div>
+    <a href="contact.html#devis" class="btn btn-primary btn-sm">Demander un devis</a>
     </div>
   </div>
 </header>
 
-<main>
-<section class="hero hero-accueil">
+<!-- 1. Hero -->
+<section class="home-hero">
+  <canvas class="rays" aria-hidden="true"></canvas>
   <div class="container">
-    <h1>Vos opérations.<br>Notre engagement.</h1>
-    <p class="tagline">Logistique<i>•</i>Sourcing<i>•</i>Conseil</p>
-    <div class="actions"><a href="#services" class="btn btn-orange">Découvrir nos services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a href="contact.html" class="btn btn-outline">Demander un devis</a></div>
-  </div>
-</section>
-<section class="section" id="services">
-  <div class="container">
-    <h2 class="section-title center">Nos services</h2>
-    <div class="cards-3">
-      <a class="service-card" href="logistique.html">
-        <img src="images/carte-logistique.jpg" alt="Conteneurs au port" loading="lazy">
-        <div class="body"><div><h3>Logistique &amp; Transport</h3><p>Fret international, transport routier et opérations portuaires.</p></div><span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span></div>
-      </a>
-      <a class="service-card" href="sourcing.html">
-        <img src="images/carte-sourcing.jpg" alt="Tubes en acier en entrepôt" loading="lazy">
-        <div class="body"><div><h3>Sourcing &amp; Négoce</h3><p>Les bons produits et matériaux, aux bonnes conditions.</p></div><span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span></div>
-      </a>
-      <a class="service-card" href="conseil.html">
-        <img src="images/carte-conseil.jpg" alt="Réunion de conseil" loading="lazy">
-        <div class="body"><div><h3>Conseil &amp; Accompagnement</h3><p>Un appui concret pour faire avancer vos projets.</p></div><span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span></div>
-      </a>
+    <div>
+      <span class="eyebrow">Djibouti · Afrique de l’Est</span>
+      <h1>Vos marchandises, vos approvisionnements, <em>vos projets.</em></h1>
+      <p class="lead">HMG Global Business Solutions coordonne la logistique, le sourcing et l’accompagnement de vos opérations à Djibouti et sur le corridor Djibouti–Éthiopie.</p>
+      <div class="ctas">
+        <a href="contact.html#devis" class="btn btn-primary btn-lg">Demander un devis <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a href="#services" class="btn btn-ghost btn-lg">Découvrir nos services</a>
+      </div>
+      <div class="facts">
+        <div><b>3 pôles</b>Logistique · Sourcing · Conseil</div>
+        <div><b>24 h ouvrées</b>Délai de réponse</div>
+        <div><b>Port de Djibouti</b>Porte de l’Éthiopie</div>
+      </div>
+    </div>
+    <div class="visual">
+      <div class="vmain"><img src="assets/port-aerial.jpg" alt="Port à conteneurs vu du ciel au coucher du soleil"></div>
+      <span class="tag"><i></i>Opérations portuaires · Fret maritime</span>
+      <div class="mini"><img src="assets/steel-coils.jpg" alt="Bobines d’acier"><span><small>Négoce</small><b>Acier &amp; matériaux de construction</b></span></div>
+      <div class="badge"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span><span><small>Corridor</small><b>Djibouti → Addis-Abeba</b></span></div>
     </div>
   </div>
 </section>
-</main>
 
-<a href="https://wa.me/25377292496" class="wa-float" aria-label="Discuter sur WhatsApp"><span class="dot"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c.1.2.6 1 1.3 1.7.9.8 1.7 1.1 1.9 1.2.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.3.1.1.1.7-.1 1.2z"/></svg></span><span class="txt">WhatsApp</span></a>
+<!-- 2. Bandeau prestations -->
+<section class="strip">
+  <div class="container">
+    <div><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2.4 2.4 0 0 0 2 1 2.4 2.4 0 0 0 2-1 2.4 2.4 0 0 1 2-1 2.4 2.4 0 0 1 2 1 2.4 2.4 0 0 0 2 1 2.4 2.4 0 0 0 2-1 2.4 2.4 0 0 1 2-1 2.4 2.4 0 0 1 2 1 2.4 2.4 0 0 0 2 1 2.4 2.4 0 0 0 2-1"/><path d="M19.4 16 21 11H3l1.6 5M12 11V4M7 11V7h10v4"/></svg></span><span>Fret maritime<small>FCL / LCL</small></span></div>
+    <div><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></svg></span><span>Fret aérien<small>Envois urgents</small></span></div>
+    <div><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3"/><path d="M14 9h4l4 4v4h-2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg></span><span>Transport routier<small>Site ou zone franche</small></span></div>
+    <div><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M6 7V3M18 7V3M2 12h20"/></svg></span><span>Opérations portuaires<small>Manutention &amp; transit</small></span></div>
+  </div>
+</section>
+
+<!-- 3. Trois pôles -->
+<section class="sec" id="services">
+  <div class="container">
+    <div class="sec-head">
+      <div><span class="eyebrow dark">Nos services</span><h2>Trois pôles. Une seule équipe responsable de bout en bout.</h2></div>
+      <p>De l’approvisionnement à la livraison, un interlocuteur unique coordonne vos opérations et nos partenaires agréés.</p>
+    </div>
+    <div class="services">
+      <article class="svc">
+        <div class="ph"><img src="assets/container-truck.jpg" alt="Camion porte-conteneur au port"><span class="num">01 · LOGISTIQUE</span></div>
+        <div class="bd"><h3>Logistique &amp; Transport</h3><p>Nous prenons en charge toute la chaîne : import, export, transit et livraison.</p>
+          <ul><li>Fret maritime et aérien</li><li>Transport routier vers l’Éthiopie</li><li>Coordination portuaire</li></ul>
+          <a class="more" href="logistique.html">Organiser un transport →</a></div>
+      </article>
+      <article class="svc">
+        <div class="ph"><img src="assets/steel-coils.jpg" alt="Bobines d’acier en entrepôt"><span class="num">02 · SOURCING</span></div>
+        <div class="bd"><h3>Sourcing &amp; Négoce</h3><p>Acier, matériaux de construction et produits industriels, sourcés et négociés pour vous.</p>
+          <ul><li>Billettes et bobines d’acier</li><li>Prospection et comparaison de fournisseurs</li><li>Devis CIF / CFR / FOB</li></ul>
+          <a class="more" href="sourcing.html">Demander un approvisionnement →</a></div>
+      </article>
+      <article class="svc">
+        <div class="ph"><img src="assets/hero-port.jpg" alt="Navire, avion et camion au port"><span class="num">03 · CONSEIL</span></div>
+        <div class="bd"><h3>Conseil &amp; Accompagnement</h3><p>Conseil logistique, développement commercial et accompagnement local sur le terrain.</p>
+          <ul><li>Mise en relation acheteurs / producteurs</li><li>Appui à la négociation</li><li>Accompagnement de projets à Djibouti</li></ul>
+          <a class="more" href="conseil.html">Être accompagné →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Logistique -->
+<section class="sec logi">
+  <div class="container split">
+    <div class="photo-stack">
+      <div class="a"><img src="assets/air-cargo.jpg" alt="Chargement de fret aérien"></div>
+      <div class="b"><img src="assets/container-truck.jpg" alt="Transport de conteneurs"></div>
+    </div>
+    <div>
+      <span class="eyebrow dark">Logistique &amp; Transport</span>
+      <h2 class="h2">Nous organisons vos transports et opérations logistiques.</h2>
+      <p style="color:var(--muted);margin-top:16px;font-size:16px">Import, export, transit, opérations portuaires, livraison sur site ou en zone franche : une seule coordination pour toute la chaîne.</p>
+      <div class="list4">
+        <div><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></svg></span><b>Fret maritime</b><span>Conteneurs complets ou groupage</span></div>
+        <div><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg></span><b>Fret aérien</b><span>Pour vos envois urgents</span></div>
+        <div><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3"/><path d="M14 9h4l4 4v4h-2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg></span><b>Transport routier</b><span>Vers votre site ou la zone franche</span></div>
+        <div><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><b>Opérations portuaires</b><span>Coordination et manutention</span></div>
+      </div>
+      <a href="contact.html#devis" class="btn btn-primary btn-lg">Organiser un transport →</a>
+    </div>
+  </div>
+</section>
+
+<!-- 5. Produits -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head">
+      <div><span class="eyebrow dark">Sourcing &amp; Négoce</span><h2>Acier et matériaux de construction, sourcés pour vos chantiers.</h2></div>
+      <p>Identification des fournisseurs, comparaison des devis, appui à la négociation et coordination des achats.</p>
+    </div>
+    <div class="products">
+      <a class="prod" href="sourcing.html"><img src="assets/steel-coils.jpg" alt="Bobines d’acier"><div><small>ACIER</small><h3>Bobines &amp; billettes d’acier</h3><p>Approvisionnement international, conditions flexibles.</p></div></a>
+      <a class="prod" href="sourcing.html"><img src="assets/tubes-profiles.png" alt="Tubes et profilés en acier"><div><small>ACIER</small><h3>Tubes &amp; profilés</h3><p>Ronds, carrés et rectangulaires, selon vos spécifications.</p></div></a>
+      <a class="prod" href="sourcing.html"><img src="assets/cement.png" alt="Coulage de ciment sur chantier"><div><small>CONSTRUCTION</small><h3>Ciment &amp; matériaux</h3><p>Matériaux de construction pour vos projets.</p></div></a>
+    </div>
+    <div class="incoterms">Devis possibles en <span>CIF</span><span>CFR</span><span>FOB</span></div>
+  </div>
+</section>
+
+<!-- 6. Méthode (fond lignes lumineuses) -->
+<section class="sec method">
+  <canvas class="rays" aria-hidden="true"></canvas>
+  <div class="container">
+    <span class="eyebrow">Notre méthode</span>
+    <h2 class="h2">Votre activité. Nos solutions.</h2>
+    <div class="steps">
+      <div class="st"><span class="n">01</span><h4>Partagez votre besoin</h4><p>Marchandise, origine, destination, volume et délai souhaité.</p></div>
+      <div class="st"><span class="n">02</span><h4>Nous étudions les options</h4><p>Itinéraires, fournisseurs et partenaires disponibles.</p></div>
+      <div class="st"><span class="n">03</span><h4>Recevez un devis sur mesure</h4><p>Une offre claire, chiffrée et adaptée à votre projet.</p></div>
+      <div class="st"><span class="n">04</span><h4>Nous coordonnons tout</h4><p>Suivi avec nos partenaires jusqu’à la livraison.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Pourquoi HMG -->
+<section class="sec">
+  <div class="container why">
+    <div>
+      <span class="eyebrow dark">Pourquoi HMG</span>
+      <h2 class="h2">Un partenaire opérationnel et stratégique, basé à Djibouti.</h2>
+      <p style="color:var(--muted);margin-top:16px;font-size:16px">Nous écoutons, nous coordonnons, nous suivons. Vous gardez un seul interlocuteur du premier échange à la livraison.</p>
+      <a href="a-propos.html" class="btn btn-ghost" style="color:var(--navy-900);border-color:var(--line);margin-top:28px">En savoir plus sur HMG →</a>
+    </div>
+    <div class="why-grid">
+      <div class="w"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span><h4>Présence locale</h4><p>Une équipe sur place, au cœur du port de Djibouti.</p></div>
+      <div class="w"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span><h4>Un interlocuteur unique</h4><p>Un chargé de dossier suit votre demande de bout en bout.</p></div>
+      <div class="w"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><h4>Partenaires agréés</h4><p>Transit et douane réalisés par des partenaires habilités.</p></div>
+      <div class="w"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><h4>Réactivité</h4><p>Réponse sous 24 h ouvrées, échanges directs sur WhatsApp.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. Appel à l'action -->
+<div class="container">
+  <section class="cta">
+    <img src="assets/port-aerial.jpg" alt="">
+    <div>
+      <span class="eyebrow">Vous avez une expédition en tête ?</span>
+      <h2>Décrivez-nous votre besoin, nous étudions vos options.</h2>
+      <p>Marchandise, origine, destination, poids, volume et date de livraison souhaitée : nous revenons vers vous sous 24 h ouvrées.</p>
+    </div>
+    <div class="ctas">
+      <a href="contact.html#devis" class="btn btn-primary btn-lg">Demander un devis →</a>
+      <a href="https://wa.me/25377292496" class="btn btn-lg" style="background:#22c55e;color:#06210f">WhatsApp</a>
+    </div>
+  </section>
+</div>
 
 <footer class="footer">
   <div class="container">
-    <a href="index.html" class="logo"><b>HMG</b><span>Global Business<br>Solutions</span></a>
-    <div class="footer-links">
-      <h4>Nos services</h4>
-      <nav><a href="logistique.html">Logistique &amp; Transport</a><a href="sourcing.html">Sourcing &amp; Négoce</a><a href="conseil.html">Conseil &amp; Accompagnement</a></nav>
+    <div class="cols">
+      <div>
+        <a href="index.html" class="logo" style="display:inline-flex"><img src="assets/hmg-logo.png" alt="HMG Global Business Solutions" onerror="this.parentNode.classList.add('noimg')"><span class="wordmark"><span>H<b>M</b>G</span><small>GLOBAL BUSINESS SOLUTIONS</small></span></a>
+        <p>Structurer et livrer des solutions d’affaires en Afrique de l’Est. Partenaire opérationnel et stratégique basé à Djibouti.</p>
+      </div>
+      <div><h5>Navigation</h5><ul><li><a href="index.html">Accueil</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h5>Nos services</h5><ul><li><a href="logistique.html">Logistique &amp; Transport</a></li><li><a href="sourcing.html">Sourcing &amp; Négoce</a></li><li><a href="conseil.html">Conseil &amp; Accompagnement</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li>+253 77 29 24 96</li><li>+253 77 57 68 05</li><li>contact@hmgglobalgroup.com</li><li>Saline Ouest, Djibouti</li></ul></div>
     </div>
-    <a href="contact.html" class="footer-contact">Contact</a>
-    <p class="copyright">© 2026 HMG Global Business Solutions · Djibouti</p>
+    <div class="legal">
+      <span>© 2026 HMG Global Business Solutions SARL · Djibouti. Les activités réglementées de transit et de douane sont réalisées par des partenaires dûment agréés.</span>
+      <nav><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Politique de confidentialité</a></nav>
+    </div>
   </div>
 </footer>
 
+<a href="https://wa.me/25377292496" class="wa-fab" aria-label="Discuter sur WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c.1.2.6 1 1.3 1.7.9.8 1.7 1.1 1.9 1.2.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.3.1.1.1.7-.1 1.2z"/></svg></a>
+<script src="js/rays.js"></script>
 </body>
 </html>

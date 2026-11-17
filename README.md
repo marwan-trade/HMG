@@ -1,41 +1,35 @@
-# HMG Global Business Solutions — site web
+# HMG Global Business Solutions — site web (v2)
 
-Site vitrine statique en **HTML + CSS** (aucun JavaScript, aucune dépendance).
+Version 2 du site : design bleu nuit, fond animé de lignes lumineuses, accents orange et or.
+Site statique en **HTML + CSS**, avec un seul petit script (`js/rays.js`) pour l'animation du fond.
 
 ## Pages
 
 | Fichier | Page |
 |---|---|
-| `index.html` | 01 Accueil |
-| `logistique.html` | 02 Logistique & Transport |
-| `sourcing.html` | 03 Sourcing & Négoce |
-| `conseil.html` | 04 Conseil & Accompagnement |
-| `a-propos.html` | 05 À propos |
-| `contact.html` | 06 Contact |
+| `index.html` | Accueil |
+| `logistique.html` | Logistique & Transport |
+| `sourcing.html` | Sourcing & Négoce |
+| `conseil.html` | Conseil & Accompagnement |
+| `a-propos.html` | À propos |
+| `contact.html` | Contact & demande de devis |
+| `mentions-legales.html` | Mentions légales |
+| `confidentialite.html` | Politique de confidentialité |
 
-Tout le style est dans `css/style.css` (couleurs dans `:root`).
-Le menu mobile fonctionne en CSS pur (case à cocher cachée).
+- Style commun : `css/hmg.css` (couleurs dans `:root`).
+- Animation du fond : `js/rays.js`. Elle s'arrête automatiquement si le visiteur a désactivé les animations.
+- Menu mobile en CSS pur (case à cocher cachée).
 
 ## Images
 
-Les images du dossier `images/` ont été reconstruites à partir de la maquette
-(texte incrusté effacé, puis agrandissement). Elles sont en basse définition :
-remplacez-les par des photos HD (au moins 1920 px de large pour les `hero-*`)
-**en gardant les mêmes noms de fichiers**, sans toucher au code.
+Les images du dossier `assets/` sont celles de l'ancien site. Elles sont en petite résolution
+(358 à 733 px de large) : remplacez-les par des versions d'au moins 1600 px de large
+**en gardant les mêmes noms de fichiers**.
 
-| Fichier | Utilisation |
-|---|---|
-| `hero-accueil.jpg` … `hero-apropos.jpg` | Bannières des pages |
-| `carte-logistique.jpg`, `carte-sourcing.jpg`, `carte-conseil.jpg` | Cartes « Nos services » de l'accueil |
-| `produit-*.jpg` | Exemples de produits (page Sourcing) |
+## À compléter avant la mise en ligne
 
-## À compléter
-
-- **Formulaire de contact** : il ouvre actuellement la messagerie du visiteur
-  (`mailto:`). Pour un envoi direct, branchez l'attribut `action` du formulaire
-  sur un service d'envoi (Formspree, script PHP, etc.).
-- **Version anglaise** : le lien `EN` du menu ne mène encore nulle part.
-
-## Aperçu local
-
-Ouvrez simplement `index.html` dans un navigateur.
+- **Mentions légales** : les informations entre crochets (adresse complète, immatriculation, directeur de la publication, hébergeur).
+- **Politique de confidentialité** : texte de base à faire valider.
+- **Formulaire de contact** : brancher l'attribut `action` du formulaire sur un service d'envoi (Formspree, script PHP…).
+- **Versions EN et 中文** : les liens du sélecteur de langue ne mènent encore nulle part.
+- **Domaine** : les balises `canonical` pointent vers `hmgglobalgroup.com`.
