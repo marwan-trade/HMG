@@ -11,7 +11,10 @@
 (function () {
   'use strict';
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var GAP = 64, FRAME = 1000 / 30;
+  var GAP = 64;
+  var small = window.matchMedia && matchMedia('(max-width: 700px)').matches;
+  var FRAME = 1000 / (small ? 24 : 30);
+  var scrolling = false, scrollTimer;
   var scenes = [];
 
   function Scene(canvas) {
@@ -24,7 +27,7 @@
   }
 
   Scene.prototype.build = function () {
-    var c = this.c, dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+    var c = this.c, dpr = Math.min(window.devicePixelRatio || 1, small ? 1 : 1.5);
     var W = this.W = c.clientWidth, H = this.H = c.clientHeight;
     if (!W || !H) return;
     c.width = Math.round(W * dpr); c.height = Math.round(H * dpr);
@@ -105,6 +108,7 @@
       if (!s.visible) continue;
       running = true;
       var dt = now - s.last;
+      if (scrolling) { s.last = now; continue; }   // pause pendant le défilement : priorité à la fluidité
       if (dt >= FRAME) {
         s.draw(Math.min(dt / FRAME, 3));   // pas d'à-coup après une pause
         s.last = now;
@@ -140,6 +144,13 @@
       wake();
     }
     document.addEventListener('visibilitychange', wake);
+
+    // Pendant le défilement, l'animation se fige ; elle repart 150 ms après l'arrêt.
+    window.addEventListener('scroll', function () {
+      scrolling = true;
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(function () { scrolling = false; }, 150);
+    }, { passive: true });
 
     // Redimensionnement : on attend la fin du geste avant de tout recalculer.
     var t, lastW = window.innerWidth;
