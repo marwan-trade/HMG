@@ -1,6 +1,7 @@
-# HMG Global Business Solutions — site web (v2)
+# HMG Global Business Solutions — site web (v3)
 
-Version 2 du site : design bleu nuit, fond animé de lignes lumineuses, accents orange et or.
+Version 3 du site : design de la v2 (bleu nuit, lignes lumineuses) aligné sur la maquette des 6 pages
+(menu « Nos services », titres, cartes, produits et formulaire de la maquette).
 Site statique en **HTML + CSS**, avec un seul petit script (`js/rays.js`) pour l'animation du fond.
 
 ## Pages
