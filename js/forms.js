@@ -31,12 +31,18 @@
         fs.disabled = !on;            // les champs masqués ne sont pas envoyés
       });
       if (waBtn && MSG[need]) {
-        waBtn.href = WA + encodeURIComponent(MSG[need]);
-        if (waMsg) waMsg.textContent = '« ' + MSG[need] + ' »';
+        var T = window.HMG_T || function (x) { return x; }, en = window.HMG_LANG && window.HMG_LANG() === 'en';
+        var m = T(MSG[need]);
+        waBtn.dataset.frHref = WA + encodeURIComponent(MSG[need]);
+        waBtn.href = WA + encodeURIComponent(m);
+        if (waMsg) waMsg.textContent = en ? '“' + m + '”' : '« ' + m + ' »';
       }
     }
     radios.forEach(function (r) {
       r.addEventListener('change', function () { show(r.getAttribute('data-need')); });
+    });
+    document.addEventListener('hmg:lang', function () {
+      var c = form.querySelector('input[name="Besoin"]:checked'); show(c ? c.getAttribute('data-need') : 'logistique');
     });
 
     // Pré-remplissage depuis l'adresse de la page
@@ -51,10 +57,10 @@
       var sel = document.getElementById('l-prest');
       if (sel) {
         for (var i = 0; i < sel.options.length; i++) {
-          if (sel.options[i].text === prest) { sel.selectedIndex = i; break; }
+          if (sel.options[i].text === prest || sel.options[i].text === (window.HMG_T ? window.HMG_T(prest) : prest)) { sel.selectedIndex = i; break; }
         }
         var box = document.getElementById('prefill'), nm = document.getElementById('prefill-name');
-        if (box && nm && sel.value) { nm.textContent = prest; box.hidden = false; }
+        if (box && nm && sel.value) { nm.textContent = sel.options[sel.selectedIndex].text; box.hidden = false; }
       }
     }
     var checked = form.querySelector('input[name="Besoin"]:checked');
@@ -68,12 +74,12 @@
       var b = file.parentNode.querySelector('b'); if (!b) return;
       if (!b.dataset.label) b.dataset.label = b.textContent;
       var x = file.files[0];
-      if (x && x.size > 10 * 1024 * 1024) { alert('Le fichier dépasse 10 Mo.'); file.value = ''; b.textContent = b.dataset.label; return; }
+      if (x && x.size > 10 * 1024 * 1024) { alert(window.HMG_T ? window.HMG_T('Le fichier dépasse 10 Mo.') : 'Le fichier dépasse 10 Mo.'); file.value = ''; b.textContent = b.dataset.label; return; }
       b.textContent = x ? '📎 ' + x.name : b.dataset.label;
     });
     f.addEventListener('submit', function () {
       var btn = f.querySelector('button[type=submit]');
-      if (btn) { btn.disabled = true; btn.style.opacity = .7; btn.textContent = 'Envoi en cours…'; }
+      if (btn) { btn.disabled = true; btn.style.opacity = .7; btn.textContent = window.HMG_T ? window.HMG_T('Envoi en cours…') : 'Envoi en cours…'; }
     });
   });
 })();
