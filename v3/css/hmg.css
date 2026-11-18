@@ -563,3 +563,32 @@ span.f{display:block;font-size:13px;font-weight:600;color:#33445a;margin-bottom:
   .cta-slim{padding:36px 22px}
   .about-ph{height:240px}
 }
+
+
+/* =========== Animation douce des schémas (js/reveal.js) =========== */
+.rv-on .rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--rv-d,0ms)}
+.rv-on .rv-in .rv{opacity:1;transform:none}
+/* Étapes 01–05 : le trait orange se dessine, le numéro s'allume */
+.flow5 li{border-top:0;position:relative;overflow:hidden}
+.flow5 li::before{content:"";position:absolute;left:0;top:0;height:3px;width:100%;background:linear-gradient(90deg,var(--orange),var(--gold));transform-origin:left;transform:scaleX(1)}
+.rv-on .flow5 li::before{transform:scaleX(0);transition:transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--rv-d,0ms) + 250ms)}
+.rv-on .flow5.rv-in li::before{transform:scaleX(1)}
+.rv-on .flow5 .n{transition:color .5s ease,text-shadow .5s ease;transition-delay:calc(var(--rv-d,0ms) + 350ms)}
+.rv-on .flow5.rv-in .n{text-shadow:0 0 18px rgba(232,101,15,.35)}
+@media (max-width:640px){.flow5 li::before{display:none}}
+/* Corridor : la ligne se trace de gauche à droite, puis les points s'allument */
+.rv-on .route3::before{transform-origin:left;transform:scaleX(0);transition:transform 1.2s cubic-bezier(.2,.7,.2,1) .15s}
+.rv-on .route3.rv-in::before{transform:scaleX(1)}
+.rv-on .route3 span{transform:scale(.4);transition:transform .5s cubic-bezier(.3,1.6,.5,1);transition-delay:calc(var(--rv-d,0ms) * 4 + 200ms)}
+.rv-on .route3.rv-in span{transform:scale(1)}
+/* Domaines du Conseil : le numéro glisse avec la ligne */
+.rv-on .rows5 li{transform:translateX(-14px)}
+.rv-on .rows5.rv-in li{transform:none}
+/* Liste du devis : la coche apparaît */
+.rv-on .checklist svg{transform:scale(0);transition:transform .45s cubic-bezier(.3,1.6,.5,1);transition-delay:calc(var(--rv-d,0ms) + 200ms)}
+.rv-on .checklist.rv-in svg{transform:scale(1)}
+/* Survol discret */
+.flow5 li,.goods li,.engage .w{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+.flow5 li:hover,.goods li:hover,.engage .w:hover{transform:translateY(-3px);box-shadow:0 18px 36px -24px rgba(10,22,40,.4);border-color:#f3c3a2}
+.goods li:hover .ic{background:var(--orange);color:#fff;transition:.25s}
+@media (prefers-reduced-motion:reduce){.rv-on .rv{opacity:1!important;transform:none!important}}
