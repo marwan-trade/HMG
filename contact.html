@@ -43,19 +43,26 @@
       <p>Décrivez-nous votre projet. Notre équipe vous répondra rapidement et vous proposera une solution adaptée.</p>
     </div>
     <div class="contact-wrap">
-      <form class="form-card" action="mailto:contact@hmgglobalgroup.com" method="post" enctype="text/plain">
-        <div class="field"><label for="nom">Nom <em>*</em></label><input id="nom" name="nom" placeholder="Votre nom" required></div>
-        <div class="field"><label for="entreprise">Entreprise <em>*</em></label><input id="entreprise" name="entreprise" placeholder="Le nom de votre entreprise" required></div>
+      <form class="form-card" action="https://formsubmit.co/contact@hmgglobalgroup.com" method="POST">
+        <!-- Envoi par FormSubmit : la demande arrive sur contact@ avec copie à Hamza@ -->
+        <input type="hidden" name="_cc" value="Hamza@hmgglobalgroup.com">
+        <input type="hidden" name="_subject" value="Nouvelle demande – site HMG">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://marwan-trade.github.io/HMG/merci.html">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="field"><label for="nom">Nom <em>*</em></label><input id="nom" name="Nom" placeholder="Votre nom" required></div>
+        <div class="field"><label for="entreprise">Entreprise <em>*</em></label><input id="entreprise" name="Entreprise" placeholder="Le nom de votre entreprise" required></div>
         <div class="field"><label for="email">E-mail <em>*</em></label><input id="email" name="email" type="email" placeholder="Votre e-mail" required></div>
         <div class="field"><label for="besoin">Votre besoin <em>*</em></label>
-          <select id="besoin" name="besoin" required>
+          <select id="besoin" name="Besoin" required>
             <option value="" selected disabled>Choisissez une catégorie</option>
             <option>Logistique &amp; Transport</option>
             <option>Sourcing &amp; Négoce</option>
             <option>Conseil &amp; Accompagnement</option>
             <option>Autre demande</option>
           </select></div>
-        <div class="field top"><label for="message">Message <em>*</em></label><textarea id="message" name="message" placeholder="Décrivez votre besoin (produits, volumes, destination, délais, etc.)" required></textarea></div>
+        <div class="field top"><label for="message">Message <em>*</em></label><textarea id="message" name="Message" placeholder="Décrivez votre besoin (produits, volumes, destination, délais, etc.)" required></textarea></div>
         <button type="submit" class="btn btn-orange">Envoyer ma demande <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button>
         <p class="form-note">Les champs marqués d’un * sont obligatoires. Vos informations restent confidentielles.</p>
       </form>
