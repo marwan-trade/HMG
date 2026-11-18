@@ -56,43 +56,50 @@
 
 <main class="main" id="devis">
   <div class="container grid">
-    <form class="card form" action="#" method="post" enctype="multipart/form-data">
+    <form class="card form" action="https://formsubmit.co/contact@hmgglobalgroup.com" method="POST" enctype="multipart/form-data">
+      <!-- Envoi par FormSubmit : la demande arrive sur contact@ avec copie à Hamza@ -->
+      <input type="hidden" name="_cc" value="Hamza@hmgglobalgroup.com">
+      <input type="hidden" name="_subject" value="Nouvelle demande de devis – site HMG">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://marwan-trade.github.io/HMG/v2/merci.html">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <h2>Demande de devis</h2>
       <p class="sub">Décrivez votre besoin : nous revenons vers vous avec des options et une offre chiffrée.</p>
 
       <div class="step"><i>1</i>Votre besoin</div>
       <div class="choices" role="radiogroup">
-        <label class="choice"><input type="radio" name="service" value="logistique" checked><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3"/><path d="M14 9h4l4 4v4h-2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg></span><span><b>Logistique &amp; Transport</b><span>Maritime, aérien, routier, port</span></span></label>
-        <label class="choice"><input type="radio" name="service" value="sourcing"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></svg></span><span><b>Sourcing &amp; Négoce</b><span>Acier, ciment, matériaux</span></span></label>
-        <label class="choice"><input type="radio" name="service" value="conseil"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2M2 13h20"/></svg></span><span><b>Conseil &amp; Accompagnement</b><span>Conseil, développement, appui local</span></span></label>
+        <label class="choice"><input type="radio" name="Besoin" value="Logistique &amp; Transport" checked><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3"/><path d="M14 9h4l4 4v4h-2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg></span><span><b>Logistique &amp; Transport</b><span>Maritime, aérien, routier, port</span></span></label>
+        <label class="choice"><input type="radio" name="Besoin" value="Sourcing &amp; Négoce"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></svg></span><span><b>Sourcing &amp; Négoce</b><span>Acier, ciment, matériaux</span></span></label>
+        <label class="choice"><input type="radio" name="Besoin" value="Conseil &amp; Accompagnement"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2M2 13h20"/></svg></span><span><b>Conseil &amp; Accompagnement</b><span>Conseil, développement, appui local</span></span></label>
       </div>
 
       <div class="step"><i>2</i>Vos coordonnées</div>
       <div class="fields">
-        <div><label class="f" for="nom">Nom complet <em>*</em></label><input class="in" id="nom" name="nom" required placeholder="Ex. Ahmed Hassan"></div>
-        <div><label class="f" for="ste">Entreprise <em>*</em></label><input class="in" id="ste" name="entreprise" required placeholder="Nom de votre société"></div>
+        <div><label class="f" for="nom">Nom complet <em>*</em></label><input class="in" id="nom" name="Nom" required placeholder="Ex. Ahmed Hassan"></div>
+        <div><label class="f" for="ste">Entreprise <em>*</em></label><input class="in" id="ste" name="Entreprise" required placeholder="Nom de votre société"></div>
         <div><label class="f" for="mail">E-mail professionnel <em>*</em></label><input class="in" id="mail" type="email" name="email" required placeholder="vous@entreprise.com"></div>
-        <div><label class="f" for="tel">Téléphone / WhatsApp <span class="opt">(facultatif)</span></label><input class="in" id="tel" type="tel" name="telephone" placeholder="+253 …"></div>
-        <div class="full"><label class="f" for="pays">Pays <em>*</em></label><input class="in" id="pays" name="pays" required placeholder="Djibouti, Éthiopie, Émirats…"></div>
+        <div><label class="f" for="tel">Téléphone / WhatsApp <span class="opt">(facultatif)</span></label><input class="in" id="tel" type="tel" name="Téléphone" placeholder="+253 …"></div>
+        <div class="full"><label class="f" for="pays">Pays <em>*</em></label><input class="in" id="pays" name="Pays" required placeholder="Djibouti, Éthiopie, Émirats…"></div>
       </div>
 
       <div class="step"><i>3</i>Votre demande</div>
       <div class="fields">
-        <div class="full"><label class="f" for="desc">Description de la demande <em>*</em></label><textarea class="in" id="desc" name="description" required placeholder="Marchandise, volume, contraintes, délai souhaité… Plus vous êtes précis, plus notre offre sera juste."></textarea></div>
+        <div class="full"><label class="f" for="desc">Description de la demande <em>*</em></label><textarea class="in" id="desc" name="Demande" required placeholder="Marchandise, volume, contraintes, délai souhaité… Plus vous êtes précis, plus notre offre sera juste."></textarea></div>
       </div>
       <details class="more" open>
         <summary><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Détails de l’expédition <span style="font-weight:500;color:#94a3b8">— facultatif</span></summary>
         <div class="fields">
-          <div><label class="f" for="mar">Marchandise</label><input class="in" id="mar" name="marchandise" placeholder="Ex. bobines d’acier"></div>
-          <div><label class="f" for="qte">Quantité</label><input class="in" id="qte" name="quantite" placeholder="Ex. 2 × 40' ou 120 t"></div>
-          <div><label class="f" for="ori">Origine</label><input class="in" id="ori" name="origine" placeholder="Port / ville de départ"></div>
-          <div><label class="f" for="dst">Destination</label><input class="in" id="dst" name="destination" placeholder="Ville / pays de livraison"></div>
-          <div class="full"><label class="f" for="dl">Délai souhaité</label><input class="in" id="dl" type="date" name="delai"></div>
-          <label class="drop"><input type="file" name="piece" accept=".pdf,.doc,.docx,.xls,.xlsx" hidden><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg></span><span><b>Joindre un document</b> — packing list, cahier des charges…<br><small>PDF, Word ou Excel · 10 Mo max.</small></span></label>
+          <div><label class="f" for="mar">Marchandise</label><input class="in" id="mar" name="Marchandise" placeholder="Ex. bobines d’acier"></div>
+          <div><label class="f" for="qte">Quantité</label><input class="in" id="qte" name="Quantité" placeholder="Ex. 2 × 40' ou 120 t"></div>
+          <div><label class="f" for="ori">Origine</label><input class="in" id="ori" name="Origine" placeholder="Port / ville de départ"></div>
+          <div><label class="f" for="dst">Destination</label><input class="in" id="dst" name="Destination" placeholder="Ville / pays de livraison"></div>
+          <div class="full"><label class="f" for="dl">Délai souhaité</label><input class="in" id="dl" type="date" name="Délai souhaité"></div>
+          <label class="drop"><input type="file" name="attachment" id="piece" accept=".pdf,.doc,.docx,.xls,.xlsx" hidden><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg></span><span><b>Joindre un document</b> — packing list, cahier des charges…<br><small>PDF, Word ou Excel · 5 Mo max.</small></span></label>
         </div>
       </details>
 
-      <label class="consent"><input type="checkbox" required><span>J’accepte que HMG utilise ces informations pour répondre à ma demande, conformément à la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
+      <label class="consent"><input type="checkbox" name="Consentement" value="Accepté" required><span>J’accepte que HMG utilise ces informations pour répondre à ma demande, conformément à la <a href="confidentialite.html">politique de confidentialité</a>.</span></label>
 
       <div class="submit">
         <span class="note"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Données traitées de façon confidentielle.<br>Réponse sous 24 h ouvrées.</span>
@@ -145,5 +152,19 @@
 
 <a href="https://wa.me/25377292496" class="wa-fab" aria-label="Discuter sur WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c.1.2.6 1 1.3 1.7.9.8 1.7 1.1 1.9 1.2.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.3.1.1.1.7-.1 1.2z"/></svg></a>
 <script src="js/rays.js"></script>
+<script>
+/* Affiche le nom du fichier joint et désactive le bouton pendant l'envoi */
+(function(){
+  var f=document.getElementById('piece'), form=document.querySelector('form.form');
+  if(f) f.addEventListener('change',function(){
+    var b=f.parentNode.querySelector('b'); if(!b) return;
+    if(f.files[0] && f.files[0].size>5*1024*1024){ alert('Le fichier dépasse 5 Mo.'); f.value=''; b.textContent='Joindre un document'; return; }
+    b.textContent=f.files[0]?'📎 '+f.files[0].name:'Joindre un document';
+  });
+  if(form) form.addEventListener('submit',function(){
+    var btn=form.querySelector('button[type=submit]'); if(btn){btn.disabled=true;btn.style.opacity=.7;btn.firstChild.textContent='Envoi en cours… ';}
+  });
+})();
+</script>
 </body>
 </html>

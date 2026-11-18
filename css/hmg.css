@@ -338,3 +338,17 @@ details.more .fields{padding:0 16px 16px}
   .svc,.feat,.prod img,.svc .ph img{transition:none}
   .card,.svc,.feat{box-shadow:0 10px 24px -18px rgba(10,22,40,.35)}
 }
+
+/* =========== Une image par emplacement =========== */
+.visual .mini .mini-ic{width:56px;height:56px;border-radius:12px;background:#fff4ec;color:var(--orange);display:grid;place-items:center;flex:none}
+.photo-stack.single .a{inset:0}
+.split-text{max-width:none}
+.split-text .list4{grid-template-columns:repeat(4,1fr)}
+/* Encadré final sans photo : fond bleu nuit et lignes */
+.cta{background:radial-gradient(700px 300px at 85% 0%,#1d3a66 0%,transparent 70%),linear-gradient(120deg,var(--navy-950),var(--navy-800))}
+.cta::before{background:repeating-linear-gradient(90deg,rgba(148,175,214,.07) 0 1px,transparent 1px 64px),repeating-linear-gradient(0deg,rgba(148,175,214,.07) 0 1px,transparent 1px 64px);-webkit-mask:linear-gradient(90deg,transparent 0%,#000 60%);mask:linear-gradient(90deg,transparent 0%,#000 60%)}
+.cta::after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(232,101,15,.28),transparent 65%);z-index:1}
+@media (max-width:1080px){.split-text .list4{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.split-text .list4{grid-template-columns:1fr}}
+.thanks{padding:110px 0 130px}.thanks .lead{color:#b6c3d4;max-width:620px;font-size:18px}
+.thanks h1{max-width:760px;margin-top:16px}
