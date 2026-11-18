@@ -1,7 +1,8 @@
 # HMG Global Business Solutions — site web (v3)
 
-Version 3 du site : design de la v2 (bleu nuit, lignes lumineuses) aligné sur la maquette des 6 pages
-(menu « Nos services », titres, cartes, produits et formulaire de la maquette).
+Version 3 du site : contenu et structure du PDF « Site HMG Global Business Solutions — Maquettes »
+(textes, schémas numérotés et listes repris à l'identique), avec le design de la v2 (bleu nuit, lignes lumineuses).
+Les informations entre crochets ([E-MAIL À CONFIRMER], [ADRESSE]…) sont volontairement visibles : à confirmer.
 Site statique en **HTML + CSS**, avec un seul petit script (`js/rays.js`) pour l'animation du fond.
 
 ## Pages

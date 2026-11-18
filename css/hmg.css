@@ -414,3 +414,152 @@ details.more .fields{padding:0 16px 16px}
 select.in{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b6b80' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;background-size:16px;padding-right:42px;cursor:pointer}
 select.in:invalid{color:#a0adbd}
 select.in option{color:var(--ink)}
+
+/* =================== v3 d'après le PDF de maquettes =================== */
+.m-only{display:none}
+@media (max-width:640px){.d-only{display:none}.m-only{display:inline}}
+.sec-soft{background:#eef2f7}
+.muted-p{color:var(--muted);font-size:16px;margin-top:14px;max-width:520px}
+.todo-txt,.todo-txt span{color:#c2410c!important;font-style:italic}
+.footer .todo-txt{color:#f6ad7b!important}
+.f-cta{color:var(--orange)!important;font-weight:600}
+.btn-wa2{background:#22c55e;color:#06210f}
+.btn-wa2:hover{background:#1fb455}
+.btn-block{width:100%;justify-content:center}
+span.f{display:block;font-size:13px;font-weight:600;color:#33445a;margin-bottom:9px}
+/* WhatsApp flottant rond (PDF) */
+.wa-fab.wa-round{width:56px;height:56px;padding:0;border-radius:50%;justify-content:center}
+/* Accueil */
+.services-pdf .svc .bd p{margin-bottom:22px}
+.badge-main{position:absolute;left:14px;top:14px;z-index:2;background:var(--navy-950);color:#fff;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:6px 10px;border-radius:6px}
+.flow5{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;counter-reset:none}
+.flow5 li{background:#fff;border:1px solid var(--line);border-top:3px solid var(--orange);border-radius:14px;padding:20px 18px 24px;min-height:130px}
+.flow5 .n{display:block;font-size:24px;font-weight:800;color:var(--orange);margin-bottom:12px}
+.flow5 b{font-size:15px;line-height:1.35;display:block}
+.goods{list-style:none;display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.goods li{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 16px;min-height:120px}
+.goods .ic{width:42px;height:42px;border-radius:11px;background:#fff4ec;color:var(--orange);display:grid;place-items:center;margin-bottom:14px}
+.goods b{font-size:14.5px;line-height:1.35;display:block}
+/* Prestations numérotées */
+.numcards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.numcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;transition:.25s}
+.numcard:hover{transform:translateY(-3px);box-shadow:0 26px 50px -30px rgba(10,22,40,.4)}
+.numcard .n{font-size:13px;font-weight:800;color:var(--orange);letter-spacing:.06em}
+.numcard h3{font-size:18px;margin:8px 0 8px;letter-spacing:-.01em}
+.numcard p{color:var(--muted);font-size:14.5px;flex:1}
+.numcard p a{color:var(--orange);text-decoration:underline}
+.numcard .more{margin-top:16px;font-weight:650;font-size:14.5px;color:var(--orange)}
+.numcard .more:hover{text-decoration:underline}
+/* Cargaisons */
+.cargo{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.cargo article{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.cargo-ph{height:200px}
+.cargo-ph img{width:100%;height:100%;object-fit:cover}
+.cargo h3{font-size:18px;margin:20px 22px 6px}
+.cargo p{color:var(--muted);font-size:14.5px;margin:0 22px 22px}
+.ph-ph{width:100%;height:100%;min-height:200px;display:grid;place-items:center;text-align:center;padding:20px;background:repeating-linear-gradient(135deg,#e3e9f1 0 12px,#dce3ec 12px 24px);color:#5b6b80;font-size:13.5px;font-weight:600;border-radius:inherit}
+/* Corridor */
+.corridor .split{align-items:center}
+.lead-light{color:#b6c3d4;font-size:16.5px;margin-top:16px;max-width:560px}
+.route3{list-style:none;display:flex;margin-top:40px;position:relative}
+.route3::before{content:"";position:absolute;left:12px;right:12px;top:11px;height:2px;background:linear-gradient(90deg,var(--orange),var(--gold))}
+.route3 li{flex:1;position:relative;text-align:center;font-size:14px}
+.route3 li:first-child{text-align:left}.route3 li:last-child{text-align:right}
+.route3 span{display:inline-block;width:24px;height:24px;border-radius:50%;background:var(--navy-950);border:3px solid var(--orange);box-shadow:0 0 18px rgba(232,101,15,.6);position:relative;z-index:1}
+.route3 b{display:block;margin-top:12px;color:#fff;font-weight:650}
+.corridor-img{border-radius:20px;overflow:hidden;height:360px;border:1px solid rgba(255,255,255,.12)}
+.corridor-img img{width:100%;height:100%;object-fit:cover}
+/* Demande de devis */
+.devis-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:50px;align-items:start}
+.checklist{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:14px 30px;margin-top:28px}
+.checklist li{display:flex;gap:10px;align-items:flex-start;font-size:15px}
+.checklist svg{color:var(--orange);flex:none;margin-top:3px}
+.ready{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;display:flex;flex-direction:column;gap:12px;box-shadow:0 24px 50px -30px rgba(10,22,40,.35)}
+.ready h3{font-size:20px}.ready p{color:var(--muted);font-size:14.5px;margin-bottom:6px}
+.ready .btn{justify-content:center}
+/* Produits */
+.prod-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:20px}
+.prod-main{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.pm-img{height:280px}.pm-img img{width:100%;height:100%;object-fit:cover}
+.pm-bd{padding:24px}
+.pill-tag{display:inline-block;background:#fff4ec;color:var(--orange);font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:5px 10px;border-radius:6px}
+.pm-bd h3{font-size:22px;margin:12px 0 14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags span{border:1.5px solid var(--navy-900);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:600}
+.tags .todo-tag{border-color:#f6c7a6;color:#c2410c;font-style:italic;font-weight:500}
+.prod-side{display:flex;flex-direction:column;gap:20px}
+.side-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;flex:1}
+.side-card h3{font-size:18px;margin-bottom:8px}.side-card p{color:var(--muted);font-size:14.5px}
+/* Formulaires d'une page service */
+.form-split{display:grid;grid-template-columns:1fr 1.3fr;gap:50px;align-items:start}
+.mini-form{padding:30px}
+.mini-coords{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.mini-title{font-weight:700;font-size:15px;margin-bottom:14px}
+.mini-form .btn-block{margin-top:22px}
+.checks{display:flex;flex-wrap:wrap;gap:8px}
+.chk{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;font-size:13.5px;cursor:pointer;background:#fbfcfd}
+.chk input{accent-color:var(--orange)}
+.chk:has(input:checked){border-color:var(--orange);background:#fff8f3}
+/* Domaines (conseil) */
+.rows-split{display:grid;grid-template-columns:1fr 1.4fr;gap:60px;align-items:start}
+.rows5{list-style:none}
+.rows5 li{display:grid;grid-template-columns:56px 1fr 1.3fr;gap:18px;padding:22px 0;border-bottom:1px solid var(--line);align-items:start}
+.rows5 li:first-child{padding-top:0}
+.rows5 .n{font-size:15px;font-weight:800;color:var(--orange)}
+.rows5 h3{font-size:16.5px}
+.rows5 p{color:var(--muted);font-size:14.5px}
+/* À propos */
+.about-hero{padding-bottom:80px}
+.about-hero h1{max-width:640px}
+.about-text p{color:#33445a;font-size:16px;margin-top:14px}
+.about-lead{font-size:20px!important;font-weight:650;color:var(--ink)!important;line-height:1.45;margin-top:0!important}
+.about-ph{height:360px;border-radius:20px;overflow:hidden}
+.engage{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cta-slim{padding:46px 56px}
+/* Contact */
+.contact-hero .lead{max-width:620px}
+.needs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.need{position:relative;border:1.5px solid var(--line);border-radius:12px;padding:16px;cursor:pointer;transition:.2s;display:block;background:#fff}
+.need input{position:absolute;opacity:0}
+.need small{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.need b{display:block;font-size:14.5px;margin-top:4px;line-height:1.3}
+.need:has(input:checked){background:var(--navy-900);border-color:var(--navy-900);color:#fff}
+.need:has(input:checked) small{color:var(--gold)}
+.prefill{display:flex;gap:10px;align-items:center;background:#fff1e6;border:1px solid #f6c7a6;color:#8a3d0a;border-radius:10px;padding:10px 14px;font-size:14px;margin-top:14px}
+.prefill[hidden]{display:none}
+.need-fs{border:0;padding:0;margin:0;min-width:0}
+.need-fs[hidden]{display:none}
+.side-info{padding:26px}
+.side-info h3{font-size:17px;margin-bottom:14px}
+.si{display:flex;gap:10px;align-items:center;font-size:14.5px;margin:10px 0;font-weight:600}
+.si svg{color:var(--orange);flex:none}
+.si.small{font-size:13px;font-weight:500}
+.wa-card h3{font-size:18px}
+.wa-card p{color:#b6c3d4;font-size:14px;margin:10px 0 6px}
+.wa-card em{color:#fff}
+.wa-card .btn-wa{display:flex}
+.wa-card .btn-wa svg{width:20px;height:20px;fill:#06210f}
+/* Responsive */
+@media (max-width:1080px){
+  .flow5{grid-template-columns:1fr 1fr 1fr}
+  .goods{grid-template-columns:repeat(3,1fr)}
+  .numcards,.cargo{grid-template-columns:1fr 1fr}
+  .devis-grid,.prod-grid,.form-split,.rows-split{grid-template-columns:1fr;gap:30px}
+  .engage{grid-template-columns:1fr 1fr}
+  .corridor-img{height:280px}
+}
+@media (max-width:640px){
+  .flow5{grid-template-columns:1fr;gap:0;position:relative}
+  .flow5 li{display:flex;align-items:center;gap:14px;min-height:0;padding:10px 0;border:0;background:none;border-radius:0}
+  .flow5 .n{width:30px;height:30px;border-radius:50%;background:var(--orange);color:#fff;font-size:13px;display:grid;place-items:center;margin:0;flex:none}
+  .goods{grid-template-columns:1fr 1fr;gap:10px}
+  .goods li{min-height:0;padding:14px;display:flex;align-items:center;gap:10px}
+  .goods .ic{margin:0;width:34px;height:34px;flex:none}
+  .numcards,.cargo,.checklist,.engage,.needs{grid-template-columns:1fr}
+  .rows5 li{grid-template-columns:40px 1fr;row-gap:6px}
+  .rows5 li p{grid-column:2}
+  .route3 b{font-size:12.5px}
+  .mini-form{padding:22px 18px}
+  .cta-slim{padding:36px 22px}
+  .about-ph{height:240px}
+}
