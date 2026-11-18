@@ -44,3 +44,8 @@ Ouvrez simplement `index.html` dans un navigateur.
 
 Le dossier `v2/` contient la version 2 du site (design bleu nuit à lignes lumineuses), aussi disponible sur la branche `HMGv2`.
 En ligne : https://marwan-trade.github.io/HMG/v2/
+
+## Version 3
+
+Le dossier `v3/` contient la version 3 (design de la v2 aligné sur la maquette), aussi disponible sur la branche `HMGv3`.
+En ligne : https://marwan-trade.github.io/HMG/v3/
