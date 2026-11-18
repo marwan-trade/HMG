@@ -38,4 +38,20 @@
     });
   }, { rootMargin: '0px 0px -12% 0px', threshold: 0.12 });
   items.forEach(function (b) { io.observe(b); });
+
+  // Sécurité : au défilement, tout schéma arrivé dans l'écran (ou déjà dépassé)
+  // est affiché, même si l'observateur n'a pas réagi.
+  var t = 0;
+  function check() {
+    t = 0;
+    var limit = window.innerHeight * 0.92, left = 0;
+    items.forEach(function (b) {
+      if (b.classList.contains('rv-in')) return;
+      if (b.getBoundingClientRect().top < limit) b.classList.add('rv-in'); else left++;
+    });
+    if (!left) window.removeEventListener('scroll', onScroll);
+  }
+  function onScroll() { if (!t) t = setTimeout(check, 120); }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('load', function () { setTimeout(check, 600); });
 })();
