@@ -352,3 +352,8 @@ details.more .fields{padding:0 16px 16px}
 @media (max-width:640px){.split-text .list4{grid-template-columns:1fr}}
 .thanks{padding:110px 0 130px}.thanks .lead{color:#b6c3d4;max-width:620px;font-size:18px}
 .thanks h1{max-width:760px;margin-top:16px}
+
+/* =========== Encadrés de fin de page avec photo en arrière-plan =========== */
+.cta.has-bg .cta-bg{position:absolute!important;inset:0;width:100%;height:100%;object-fit:cover;z-index:0!important;filter:blur(1.5px) saturate(1.1);transform:scale(1.03)}
+.cta.has-bg::before{z-index:1;background:linear-gradient(90deg,rgba(6,14,28,.95) 0%,rgba(6,14,28,.86) 48%,rgba(6,14,28,.55) 100%);-webkit-mask:none;mask:none}
+.cta.has-bg::after{z-index:1}
