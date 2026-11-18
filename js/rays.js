@@ -45,9 +45,14 @@
     for (y = GAP / 2; y < H; y += GAP) for (v = GAP / 2; v < W; v += GAP) gx.fillRect(v - 1, y - 1, 2, 2);
 
     // Fondu vers la gauche pour garder le texte lisible
-    var f = this.x.createLinearGradient(0, 0, W, 0);
-    f.addColorStop(0, 'rgba(6,14,28,.75)'); f.addColorStop(.55, 'rgba(6,14,28,.15)'); f.addColorStop(1, 'rgba(6,14,28,0)');
-    this.fade = f;
+    // Voile pour garder le texte lisible : sur mobile le texte occupe toute la largeur,
+    // donc voile uniforme ; sur ordinateur, voile plus fort à gauche (côté texte).
+    if (small) { this.fade = 'rgba(6,14,28,.62)'; }
+    else {
+      var f = this.x.createLinearGradient(0, 0, W, 0);
+      f.addColorStop(0, 'rgba(6,14,28,.86)'); f.addColorStop(.45, 'rgba(6,14,28,.62)'); f.addColorStop(.75, 'rgba(6,14,28,.1)'); f.addColorStop(1, 'rgba(6,14,28,0)');
+      this.fade = f;
+    }
 
     // Nombre de rayons proportionnel à la surface, plafonné (moins sur mobile).
     var n = Math.round((W * H) / (W < 700 ? 60000 : 42000));
