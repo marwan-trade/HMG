@@ -631,3 +631,8 @@ span.f{display:block;font-size:13px;font-weight:600;color:#33445a;margin-bottom:
 /* Étapes du formulaire écrites « 1. Votre besoin » comme dans le PDF */
 .step i{width:auto;height:auto;background:none;color:inherit;font-size:inherit;border-radius:0}
 .step i::after{content:"."}
+
+/* Chinois : police avec caractères chinois */
+html[lang="zh-Hans"] body,html[lang="zh-Hans"] .btn,html[lang="zh-Hans"] input,html[lang="zh-Hans"] textarea,html[lang="zh-Hans"] select{font-family:Inter,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC","Noto Sans CJK SC","Source Han Sans SC",system-ui,sans-serif}
+html[lang="zh-Hans"] .eyebrow{letter-spacing:.12em}
+html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2{letter-spacing:0;line-height:1.25}

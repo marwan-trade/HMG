@@ -35,7 +35,8 @@
         var m = T(MSG[need]);
         waBtn.dataset.frHref = WA + encodeURIComponent(MSG[need]);
         waBtn.href = WA + encodeURIComponent(m);
-        if (waMsg) waMsg.textContent = en ? '“' + m + '”' : '« ' + m + ' »';
+        var fr = !window.HMG_LANG || window.HMG_LANG() === 'fr';
+        if (waMsg) waMsg.textContent = fr ? '« ' + m + ' »' : '“' + m + '”';
       }
     }
     radios.forEach(function (r) {
