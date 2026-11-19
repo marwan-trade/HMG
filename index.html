@@ -3,79 +3,137 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HMG Global Business Solutions | Logistique, sourcing et conseil à Djibouti</title>
-<meta name="description" content="HMG Global Business Solutions accompagne vos opérations de logistique, de sourcing et de conseil à Djibouti.">
-<meta name="theme-color" content="#0b1f3a">
-<link rel="stylesheet" href="css/style.css">
+<title>HMG Global Business Solutions | Logistique, sourcing & conseil à Djibouti</title>
+<meta name="description" content="HMG Global Business Solutions prend en charge vos besoins en transport, logistique et approvisionnement à Djibouti et sur le corridor Djibouti–Éthiopie.">
+<meta property="og:title" content="HMG Global Business Solutions | Logistique, sourcing & conseil à Djibouti">
+<meta property="og:description" content="HMG Global Business Solutions prend en charge vos besoins en transport, logistique et approvisionnement à Djibouti et sur le corridor Djibouti–Éthiopie.">
+<meta property="og:locale" content="fr_FR">
+<meta name="theme-color" content="#0a1628">
+<link rel="stylesheet" href="css/main.css?v=20261119m">
 </head>
 <body>
 
 <header class="header">
   <div class="container">
-    <a href="index.html" class="logo" aria-label="HMG Global Business Solutions – accueil"><b>HMG</b><span>Global Business<br>Solutions</span></a>
-    <input type="checkbox" id="nav-toggle" aria-hidden="true">
+    <a href="index.html" class="logo" aria-label="HMG Global Business Solutions – accueil">
+      <img src="assets/hmg-logo.png" alt="HMG Global Business Solutions" onerror="this.parentNode.classList.add('noimg')">
+      <span class="wordmark"><span>H<b>M</b>G</span><small>GLOBAL BUSINESS SOLUTIONS</small></span>
+    </a>
+    <input type="checkbox" id="nav-toggle" hidden>
     <label for="nav-toggle" class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></label>
     <div class="nav-area">
-      <ul class="menu">
-        <li><a href="index.html" class="active" aria-current="page">Accueil</a></li>
-        <li><a href="index.html#services">Nos services<span class="caret"></span></a>
-          <div class="dropdown">
-            <a href="logistique.html">Logistique &amp; Transport</a>
-            <a href="sourcing.html">Sourcing &amp; Négoce</a>
-            <a href="conseil.html">Conseil &amp; Accompagnement</a>
-          </div>
-        </li>
-        <li><a href="a-propos.html">À propos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="lang"><a href="#" class="on" hreflang="fr">FR</a>|<a href="#" hreflang="en">EN</a></div>
-      <a href="contact.html" class="btn btn-orange btn-sm">Demander un devis</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html" class="active" aria-current="page">Accueil</a>
+      <div class="dd">
+        <a href="index.html#services" class="dd-btn" aria-haspopup="true">Nos services<span class="caret"></span></a>
+        <div class="dd-menu">
+          <a href="logistique.html">Logistique &amp; Transport</a>
+          <a href="sourcing.html">Sourcing &amp; Négoce</a>
+          <a href="conseil.html">Conseil &amp; Accompagnement</a>
+        </div>
+      </div>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="lang" aria-label="Langue"><a href="#" class="on" data-lang="fr" hreflang="fr">FR</a><a href="#" data-lang="en" hreflang="en">EN</a><a href="#" class="lang-soon" hreflang="zh" title="Bientôt disponible" aria-disabled="true">中文</a></div>
+    <a href="contact.html" class="btn btn-primary btn-sm">Demander un devis</a>
     </div>
   </div>
 </header>
 
-<main>
-<section class="hero hero-accueil">
+
+<section class="pdf-hero">
+  <img class="pdf-hero-bg" fetchpriority="high" src="assets/accueil-hero.jpg" alt="Navire, port et conteneurs">
   <div class="container">
-    <h1>Vos opérations.<br>Notre engagement.</h1>
-    <p class="tagline">Logistique<i>•</i>Sourcing<i>•</i>Conseil</p>
-    <div class="actions"><a href="#services" class="btn btn-orange">Découvrir nos services <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></a><a href="contact.html" class="btn btn-outline">Demander un devis</a></div>
+    
+    <span class="eyebrow"><span class="d-only">Logistique · Sourcing · Conseil — Djibouti</span><span class="m-only">Djibouti · Corridor Éthiopie</span></span>
+    <h1>Vos opérations.<br><em>Notre engagement.</em></h1>
+    <p class="lead"><span class="d-only">HMG Global Business Solutions prend en charge vos besoins en transport, logistique et approvisionnement. Basée à Djibouti, notre entreprise vous accompagne du départ de vos marchandises jusqu’à leur livraison, notamment sur le corridor Djibouti–Éthiopie.</span><span class="m-only">HMG Global Business Solutions prend en charge vos besoins en transport, logistique et approvisionnement, du départ de vos marchandises jusqu’à leur livraison.</span></p>
+    <div class="ctas"><a href="#services" class="btn btn-primary btn-lg">Découvrir nos services <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="contact.html" class="btn btn-ghost btn-lg">Demander un devis</a></div>
   </div>
 </section>
-<section class="section" id="services">
+
+<section class="sec" id="services">
   <div class="container">
-    <h2 class="section-title center">Nos services</h2>
-    <div class="cards-3">
-      <a class="service-card" href="logistique.html">
-        <img src="images/carte-logistique.jpg" alt="Conteneurs au port" loading="lazy">
-        <div class="body"><div><h3>Logistique &amp; Transport</h3><p>Fret international, transport routier et opérations portuaires.</p></div><span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span></div>
-      </a>
-      <a class="service-card" href="sourcing.html">
-        <img src="images/carte-sourcing.jpg" alt="Tubes en acier en entrepôt" loading="lazy">
-        <div class="body"><div><h3>Sourcing &amp; Négoce</h3><p>Les bons produits et matériaux, aux bonnes conditions.</p></div><span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span></div>
-      </a>
-      <a class="service-card" href="conseil.html">
-        <img src="images/carte-conseil.jpg" alt="Réunion de conseil" loading="lazy">
-        <div class="body"><div><h3>Conseil &amp; Accompagnement</h3><p>Un appui concret pour faire avancer vos projets.</p></div><span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></span></div>
-      </a>
+    <div class="sec-head">
+      <div><span class="eyebrow dark">Nos services</span><h2><span class="d-only">Trois pôles d’activité, un interlocuteur unique à Djibouti.</span><span class="m-only">Trois pôles, un interlocuteur unique.</span></h2></div>
+    </div>
+    <div class="services services-pdf">
+      <article class="svc">
+        <div class="ph"><img loading="lazy" decoding="async" src="assets/carte-logistique.jpg" alt="Navire et terminal à conteneurs"><span class="badge-main">Activité principale</span></div>
+        <div class="bd"><h3>Logistique &amp; Transport</h3><p><span class="d-only">Fret maritime et aérien, transport routier, transit, manutention et livraison : des prestations adaptées à chaque marchandise.</span><span class="m-only">Fret maritime et aérien, transport routier, transit, manutention et livraison.</span></p>
+          <a class="more" href="logistique.html">Découvrir nos prestations →</a></div>
+      </article>
+      <article class="svc">
+        <div class="ph"><img loading="lazy" decoding="async" src="assets/carte-sourcing.jpg" alt="Fers à béton chargés sur un camion en entrepôt"></div>
+        <div class="bd"><h3>Sourcing &amp; Négoce</h3><p><span class="d-only">Recherche, négociation et fourniture de produits pour vos approvisionnements, vos chantiers et votre activité.</span><span class="m-only">Recherche, négociation et fourniture de produits pour vos approvisionnements et vos chantiers.</span></p>
+          <a class="more" href="sourcing.html"><span class="d-only">Découvrir nos solutions d’approvisionnement →</span><span class="m-only">Découvrir nos solutions →</span></a></div>
+      </article>
+      <article class="svc">
+        <div class="ph"><img loading="lazy" decoding="async" src="assets/carte-conseil.jpg" alt="Réunion professionnelle"></div>
+        <div class="bd"><h3>Conseil &amp; Accompagnement</h3><p><span class="d-only">Un accompagnement pour préparer votre implantation, structurer votre projet et développer votre activité à Djibouti.</span><span class="m-only">Préparer votre implantation, structurer votre projet et développer votre activité à Djibouti.</span></p>
+          <a class="more" href="conseil.html">Découvrir notre accompagnement →</a></div>
+      </article>
     </div>
   </div>
 </section>
-</main>
 
-<a href="https://wa.me/25377292496" class="wa-float" aria-label="Discuter sur WhatsApp"><span class="dot"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c.1.2.6 1 1.3 1.7.9.8 1.7 1.1 1.9 1.2.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.3.1.1.1.7-.1 1.2z"/></svg></span><span class="txt">WhatsApp</span></a>
+<section class="sec sec-soft">
+  <div class="container">
+    <div class="sec-head">
+      <div><span class="eyebrow dark">Logistique de bout en bout</span><h2>De votre point de départ à votre destination.</h2></div>
+      <p>Une prestation précise ou une prise en charge complète : nous adaptons notre intervention à votre marchandise, votre itinéraire et vos délais.</p>
+    </div>
+    <ol class="flow5">
+      <li><span class="n"><span class="d-only">01</span><span class="m-only">1</span></span><b>Étude de votre besoin</b></li><li><span class="n"><span class="d-only">02</span><span class="m-only">2</span></span><b>Proposition et devis</b></li><li><span class="n"><span class="d-only">03</span><span class="m-only">3</span></span><b>Organisation de l’expédition</b></li><li><span class="n"><span class="d-only">04</span><span class="m-only">4</span></span><b>Transport et opérations à destination</b></li><li><span class="n"><span class="d-only">05</span><span class="m-only">5</span></span><b>Livraison et suivi</b></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="container">
+    <div class="sec-head">
+      <div><span class="eyebrow dark">Marchandises</span><h2><span class="d-only">Les marchandises que nous prenons en charge</span><span class="m-only">Les marchandises</span></h2></div>
+    </div>
+    <ul class="goods">
+      <li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="12" rx="1"/><path d="M6 7v12M10 7v12M14 7v12M18 7v12"/></svg></span><b>Conteneurs</b></li><li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18"/><path d="M5 20l5-9 4 5 2-3 3 7"/><circle cx="16" cy="6" r="2"/></svg></span><b>Vrac / Bulk</b></li><li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="8" height="9" rx="1"/><rect x="13" y="11" width="8" height="9" rx="1"/><rect x="8" y="3" width="8" height="8" rx="1"/></svg></span><b><span class="d-only">Marchandises conventionnelles / Breakbulk</span><span class="m-only">Breakbulk</span></b></li><li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="17" r="3"/><circle cx="17" cy="17" r="3"/><circle cx="12" cy="9" r="3"/></svg></span><b>Acier et matériaux</b></li><li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></span><b>Équipements</b></li><li><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 17h4V5H2v12h3"/><path d="M14 9h4l4 4v4h-2"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg></span><b>Véhicules</b></li>
+    </ul>
+  </div>
+</section>
+
+<div class="container">
+  <section class="cta cta-plain">
+    <div>
+      <h2>Une marchandise à transporter ? Un produit à acheter ? Un projet à concrétiser ?</h2>
+    </div>
+    <div class="ctas">
+      <a href="contact.html" class="btn btn-primary btn-lg">Présenter mon besoin</a>
+      <a href="https://wa.me/25377576805?text=Bonjour%20HMG%2C%20je%20souhaite%20pr%C3%A9senter%20mon%20besoin." class="btn btn-lg btn-wa2">Discuter sur WhatsApp</a>
+    </div>
+  </section>
+</div>
+<div style="height:1px"></div>
+
 
 <footer class="footer">
   <div class="container">
-    <a href="index.html" class="logo"><b>HMG</b><span>Global Business<br>Solutions</span></a>
-    <div class="footer-links">
-      <h4>Nos services</h4>
-      <nav><a href="logistique.html">Logistique &amp; Transport</a><a href="sourcing.html">Sourcing &amp; Négoce</a><a href="conseil.html">Conseil &amp; Accompagnement</a></nav>
+    <div class="cols">
+      <div>
+        <a href="index.html" class="logo" style="display:inline-flex"><img loading="lazy" decoding="async" src="assets/hmg-logo.png" alt="HMG Global Business Solutions" onerror="this.parentNode.classList.add('noimg')"><span class="wordmark"><span>H<b>M</b>G</span><small>GLOBAL BUSINESS SOLUTIONS</small></span></a>
+        <p>Logistique &amp; transport, sourcing &amp; négoce, conseil &amp; accompagnement des entreprises. Basée à Djibouti.</p>
+      </div>
+      <div><h5>Nos services</h5><ul><li><a href="logistique.html">Logistique &amp; Transport</a></li><li><a href="sourcing.html">Sourcing &amp; Négoce</a></li><li><a href="conseil.html">Conseil &amp; Accompagnement</a></li></ul></div>
+      <div><h5>HMG</h5><ul><li><a href="index.html">Accueil</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html" class="f-cta">Demander un devis →</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li><a href="tel:+25377576805">+253 77 57 68 05</a></li><li><a href="https://wa.me/25377576805?text=Bonjour%20HMG%2C%20je%20souhaite%20pr%C3%A9senter%20mon%20besoin.">WhatsApp : +253 77 57 68 05</a></li><li class="todo-txt">[E-MAIL À CONFIRMER]@hmgglobalgroup.com</li><li class="todo-txt">[ADRESSE], Djibouti</li></ul></div>
     </div>
-    <a href="contact.html" class="footer-contact">Contact</a>
-    <p class="copyright">© 2026 HMG Global Business Solutions · Djibouti</p>
+    <div class="legal">
+      <span>© 2026 HMG Global Business Solutions. Tous droits réservés.</span>
+      <nav><a href="mentions-legales.html">Mentions légales</a></nav>
+    </div>
   </div>
 </footer>
 
+<a href="https://wa.me/25377576805?text=Bonjour%20HMG%2C%20je%20souhaite%20pr%C3%A9senter%20mon%20besoin." class="wa-fab wa-round" aria-label="Discuter sur WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c.1.2.6 1 1.3 1.7.9.8 1.7 1.1 1.9 1.2.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.3.1.1.1.7-.1 1.2z"/></svg></a>
+<script src="js/i18n.js?v=20261119m"></script>
 </body>
 </html>

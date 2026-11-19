@@ -6,58 +6,76 @@
 <title>Merci | HMG Global Business Solutions</title>
 <meta name="description" content="Votre demande a bien été envoyée.">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#0b1f3a">
-<link rel="stylesheet" href="css/style.css">
+
+<meta property="og:title" content="Mentions légales | HMG Global Business Solutions">
+<meta property="og:description" content="Mentions légales du site HMG Global Business Solutions.">
+<meta property="og:locale" content="fr_FR">
+<meta name="theme-color" content="#0a1628">
+<link rel="stylesheet" href="css/main.css?v=20261119m">
 </head>
 <body>
 
 <header class="header">
   <div class="container">
-    <a href="index.html" class="logo" aria-label="HMG Global Business Solutions – accueil"><b>HMG</b><span>Global Business<br>Solutions</span></a>
-    <input type="checkbox" id="nav-toggle" aria-hidden="true">
+    <a href="index.html" class="logo" aria-label="HMG Global Business Solutions – accueil">
+      <img src="assets/hmg-logo.png" alt="HMG Global Business Solutions" onerror="this.parentNode.classList.add('noimg')">
+      <span class="wordmark"><span>H<b>M</b>G</span><small>GLOBAL BUSINESS SOLUTIONS</small></span>
+    </a>
+    <input type="checkbox" id="nav-toggle" hidden>
     <label for="nav-toggle" class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></label>
     <div class="nav-area">
-      <ul class="menu">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="index.html#services">Nos services<span class="caret"></span></a>
-          <div class="dropdown">
-            <a href="logistique.html">Logistique &amp; Transport</a>
-            <a href="sourcing.html">Sourcing &amp; Négoce</a>
-            <a href="conseil.html">Conseil &amp; Accompagnement</a>
-          </div>
-        </li>
-        <li><a href="a-propos.html">À propos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <div class="lang"><a href="#" class="on" hreflang="fr">FR</a>|<a href="#" hreflang="en">EN</a></div>
-      <a href="contact.html" class="btn btn-orange btn-sm">Demander un devis</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <div class="dd">
+        <a href="index.html#services" class="dd-btn" aria-haspopup="true">Nos services<span class="caret"></span></a>
+        <div class="dd-menu">
+          <a href="logistique.html">Logistique &amp; Transport</a>
+          <a href="sourcing.html">Sourcing &amp; Négoce</a>
+          <a href="conseil.html">Conseil &amp; Accompagnement</a>
+        </div>
+      </div>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="lang" aria-label="Langue"><a href="#" class="on" data-lang="fr" hreflang="fr">FR</a><a href="#" data-lang="en" hreflang="en">EN</a><a href="#" class="lang-soon" hreflang="zh" title="Bientôt disponible" aria-disabled="true">中文</a></div>
+    <a href="contact.html" class="btn btn-primary btn-sm">Demander un devis</a>
     </div>
   </div>
 </header>
 
-<main>
-<section class="section">
-  <div class="container center" style="max-width:680px;padding:60px 0">
-    <h1 style="font-size:clamp(30px,3.6vw,44px);font-weight:800;letter-spacing:-.02em">Merci, votre demande a bien été envoyée.</h1>
-    <p style="color:var(--muted);margin:16px 0 30px;font-size:17px">Notre équipe vous répondra rapidement. Pour une question urgente, écrivez-nous sur WhatsApp.</p>
-    <a href="index.html" class="btn btn-orange">Retour à l’accueil</a>
+
+<section class="hero legal-hero thanks">
+  <div class="container">
+    <span class="eyebrow">Demande envoyée</span>
+    <h1>Merci, nous avons bien reçu votre demande.</h1>
+    <p class="lead">Notre équipe revient vers vous sous 24 h ouvrées (dimanche – jeudi, 08:00 – 17:00, heure de Djibouti). Pour une question urgente, écrivez-nous sur WhatsApp.</p>
+    <div class="ctas" style="margin-top:30px">
+      <a href="index.html" class="btn btn-primary btn-lg">Retour à l’accueil</a>
+      <a href="https://wa.me/25377576805" class="btn btn-lg" style="background:#22c55e;color:#06210f">WhatsApp</a>
+    </div>
   </div>
 </section>
-</main>
 
-<a href="https://wa.me/25377292496" class="wa-float" aria-label="Discuter sur WhatsApp"><span class="dot"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c.1.2.6 1 1.3 1.7.9.8 1.7 1.1 1.9 1.2.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.3.1.1.1.7-.1 1.2z"/></svg></span><span class="txt">WhatsApp</span></a>
 
 <footer class="footer">
   <div class="container">
-    <a href="index.html" class="logo"><b>HMG</b><span>Global Business<br>Solutions</span></a>
-    <div class="footer-links">
-      <h4>Nos services</h4>
-      <nav><a href="logistique.html">Logistique &amp; Transport</a><a href="sourcing.html">Sourcing &amp; Négoce</a><a href="conseil.html">Conseil &amp; Accompagnement</a></nav>
+    <div class="cols">
+      <div>
+        <a href="index.html" class="logo" style="display:inline-flex"><img loading="lazy" decoding="async" src="assets/hmg-logo.png" alt="HMG Global Business Solutions" onerror="this.parentNode.classList.add('noimg')"><span class="wordmark"><span>H<b>M</b>G</span><small>GLOBAL BUSINESS SOLUTIONS</small></span></a>
+        <p>Logistique &amp; transport, sourcing &amp; négoce, conseil &amp; accompagnement des entreprises. Basée à Djibouti.</p>
+      </div>
+      <div><h5>Nos services</h5><ul><li><a href="logistique.html">Logistique &amp; Transport</a></li><li><a href="sourcing.html">Sourcing &amp; Négoce</a></li><li><a href="conseil.html">Conseil &amp; Accompagnement</a></li></ul></div>
+      <div><h5>HMG</h5><ul><li><a href="index.html">Accueil</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="contact.html">Contact</a></li><li><a href="contact.html" class="f-cta">Demander un devis →</a></li></ul></div>
+      <div><h5>Contact</h5><ul><li><a href="tel:+25377576805">+253 77 57 68 05</a></li><li><a href="https://wa.me/25377576805?text=Bonjour%20HMG%2C%20je%20souhaite%20pr%C3%A9senter%20mon%20besoin.">WhatsApp : +253 77 57 68 05</a></li><li class="todo-txt">[E-MAIL À CONFIRMER]@hmgglobalgroup.com</li><li class="todo-txt">[ADRESSE], Djibouti</li></ul></div>
     </div>
-    <a href="contact.html" class="footer-contact">Contact</a>
-    <p class="copyright">© 2026 HMG Global Business Solutions · Djibouti</p>
+    <div class="legal">
+      <span>© 2026 HMG Global Business Solutions. Tous droits réservés.</span>
+      <nav><a href="mentions-legales.html">Mentions légales</a></nav>
+    </div>
   </div>
 </footer>
 
+<a href="https://wa.me/25377576805?text=Bonjour%20HMG%2C%20je%20souhaite%20pr%C3%A9senter%20mon%20besoin." class="wa-fab wa-round" aria-label="Discuter sur WhatsApp"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.4c.1.2.6 1 1.3 1.7.9.8 1.7 1.1 1.9 1.2.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.6-.1l1.9.9c.2.1.4.2.4.3.1.1.1.7-.1 1.2z"/></svg></a>
+<script src="js/i18n.js?v=20261119m"></script>
 </body>
 </html>
