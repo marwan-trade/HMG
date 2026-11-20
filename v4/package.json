@@ -1,0 +1,26 @@
+{
+  "name": "hmg-global-business-solutions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HMG Global Business Solutions — Logistique, sourcing & conseil à Djibouti",
+  "type": "module",
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node build.mjs && node --check server.js",
+    "lint": "node --check build.mjs && node --check server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "clean-css": "^5.3.3",
+    "compression": "^1.8.2",
+    "express": "^4.21.2",
+    "html-minifier-terser": "^7.2.0",
+    "javascript-obfuscator": "^5.10.1",
+    "sharp": "^0.35.5",
+    "terser": "^5.51.2"
+  }
+}

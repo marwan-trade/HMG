@@ -1,0 +1,26 @@
+{
+  "name": "HMG Global Business Solutions SARL",
+  "short_name": "HMG Djibouti",
+  "description": "Logistique & transport sur le corridor Djibouti–Éthiopie, sourcing & négoce industriel, conseil d’implantation à Djibouti.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060e1c",
+  "theme_color": "#0a1628",
+  "icons": [
+    {
+      "src": "/media/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/media/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
