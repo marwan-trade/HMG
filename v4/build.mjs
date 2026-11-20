@@ -37,7 +37,7 @@ const JS_FILES = [
 ];
 
 const IMAGE_ASSETS = [
-  { src: 'assets/hmg-logo.png', slug: 'hmg-logo', maxWidth: 480, ogJpg: false, keepPng: true },
+  { src: 'assets/hmg-logo-2026.png', slug: 'hmg-logo', maxWidth: 480, ogJpg: false, keepPng: true },
   { src: 'public/assets/aistudio/IMG-20261118-WA0051_1017669b.jpg', slug: 'port-djibouti-hero', maxWidth: 1376, ogJpg: true },
   { src: 'public/assets/aistudio/F627EEEA-FA64-4E65-BEF7-447E4DD370DB_51897636.png', slug: 'terminal-conteneurs-djibouti', maxWidth: 1200, ogJpg: false },
   { src: 'assets/carte-sourcing.jpg', slug: 'sourcing-materiaux-djibouti', maxWidth: 1000, ogJpg: false },
