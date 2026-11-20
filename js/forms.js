@@ -9,11 +9,13 @@
    ========================================================= */
 (function () {
   'use strict';
-  var WA = 'https://wa.me/25377576805?text=';
+  var WA = 'https://wa.me/25377292496?text=';
+  var PRIMARY_EMAIL = 'https://formsubmit.co/contact@hmgglobalgroup.com';
+  var CC_EMAIL = 'hamza@hmgglobalgroup.com';
   var MSG = {
-    logistique: 'Bonjour HMG, je souhaite un devis pour un transport.',
-    sourcing: 'Bonjour HMG, je recherche un produit.',
-    conseil: 'Bonjour HMG, je souhaite présenter mon projet.'
+    logistique: 'Bonjour HMG, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un devis transport.',
+    sourcing: 'Bonjour HMG, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un produit.',
+    conseil: 'Bonjour HMG, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant mon projet.'
   };
 
   // ---------- Formulaire de contact : champs selon le besoin
@@ -31,7 +33,7 @@
         fs.disabled = !on;            // les champs masqués ne sont pas envoyés
       });
       if (waBtn && MSG[need]) {
-        var T = window.HMG_T || function (x) { return x; }, en = window.HMG_LANG && window.HMG_LANG() === 'en';
+        var T = window.HMG_T || function (x) { return x; };
         var m = T(MSG[need]);
         waBtn.dataset.frHref = WA + encodeURIComponent(MSG[need]);
         waBtn.href = WA + encodeURIComponent(m);
@@ -68,17 +70,45 @@
     show(checked ? checked.getAttribute('data-need') : 'logistique');
   }
 
-  // ---------- Tous les formulaires : fichier joint et envoi
+  function ensureDualRecipients(f) {
+    f.setAttribute('action', PRIMARY_EMAIL);
+    var cc = f.querySelector('input[name="_cc"]');
+    if (!cc) {
+      cc = document.createElement('input');
+      cc.type = 'hidden';
+      cc.name = '_cc';
+      f.appendChild(cc);
+    }
+    cc.value = CC_EMAIL;
+  }
+
+  // ---------- Tous les formulaires : destinataires, fichier joint et envoi
   document.querySelectorAll('form').forEach(function (f) {
+    ensureDualRecipients(f);
+    var nextIn = f.querySelector('input[name="_next"]');
+    if (nextIn && location.origin && location.origin !== 'null') {
+      var p = location.pathname || '/';
+      var nextPath = /^\/en(\/|$)/.test(p) ? '/en/thanks' : /^\/zh(\/|$)/.test(p) ? '/zh/thanks' : '/merci';
+      nextIn.value = location.origin + nextPath;
+    }
     var file = f.querySelector('.file-in');
     if (file) file.addEventListener('change', function () {
       var b = file.parentNode.querySelector('b'); if (!b) return;
       if (!b.dataset.label) b.dataset.label = b.textContent;
       var x = file.files[0];
-      if (x && x.size > 10 * 1024 * 1024) { alert(window.HMG_T ? window.HMG_T('Le fichier dépasse 10 Mo.') : 'Le fichier dépasse 10 Mo.'); file.value = ''; b.textContent = b.dataset.label; return; }
+      if (x && x.size > 10 * 1024 * 1024) {
+        var msg = window.HMG_T ? window.HMG_T('Le fichier dépasse 10 Mo.') : 'Le fichier dépasse 10 Mo.';
+        file.value = '';
+        b.textContent = msg;
+        b.style.color = '#c2410c';
+        setTimeout(function () { b.textContent = b.dataset.label; b.style.color = ''; }, 4000);
+        return;
+      }
+      b.style.color = '';
       b.textContent = x ? '📎 ' + x.name : b.dataset.label;
     });
     f.addEventListener('submit', function () {
+      ensureDualRecipients(f);
       var btn = f.querySelector('button[type=submit]');
       if (btn) { btn.disabled = true; btn.style.opacity = .7; btn.textContent = window.HMG_T ? window.HMG_T('Envoi en cours…') : 'Envoi en cours…'; }
     });

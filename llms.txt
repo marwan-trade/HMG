@@ -1,0 +1,37 @@
+# HMG Global Business Solutions SARL
+
+> Djibouti-based B2B trade, end-to-end logistics, international sourcing & trading, and business setup consulting partner serving Djibouti and the Djibouti–Ethiopia corridor.
+
+HMG Global Business Solutions SARL provides integrated import/export freight, port operations, corridor road haulage, industrial product sourcing (steel, cement, aggregates, industrial supplies), and company implantation consulting in Djibouti.
+
+## Canonical Pages
+
+- [Accueil](https://hmgglobalgroup.com/): Overview of HMG's three business poles, 5-step operational workflow, and cargo types handled in Djibouti and on the Djibouti–Ethiopia corridor.
+- [Logistique & Transport](https://hmgglobalgroup.com/logistique): End-to-end maritime freight, air freight, road transport, transit formalities, port operations, loading/unloading, handling, warehousing, distribution, and vehicle/equipment transport.
+- [Sourcing & Négoce](https://hmgglobalgroup.com/sourcing): Supplier sourcing, manufacturer selection, commercial negotiation (CIF, CFR, FOB, Djibouti reception), steel products, cement, aggregates, industrial drums, tools, and parts.
+- [Conseil & Accompagnement](https://hmgglobalgroup.com/conseil): Business setup preparation, administrative filing support, operational organization (premises and supply), business development, and project follow-up in Djibouti.
+- [Guides opérationnels](https://hmgglobalgroup.com/guides): Practical B2B reference guide covering Port of Djibouti arrival documents, container/bulk/breakbulk selection, FOB/CFR/CIF/Djibouti delivery Incoterms comparison, steel & cement specs, and 5-step company launch checklist.
+- [À propos](https://hmgglobalgroup.com/a-propos): Company mission, Djibouti base, and core commitments (écoute, réactivité, clarté, suivi).
+- [Contact & Devis](https://hmgglobalgroup.com/contact): Guided multi-need quote request form for Logistics, Sourcing, or Consulting and direct WhatsApp/email contact details.
+- [Mentions légales](https://hmgglobalgroup.com/mentions-legales): Legal notice, corporate details, regulated customs/transit partner disclosure, and intellectual property terms.
+
+## Multilingual Editions
+
+- **English (`/en`)**: https://hmgglobalgroup.com/en | /en/logistics | /en/sourcing | /en/consulting | /en/guides | /en/about | /en/contact | /en/legal
+- **Simplified Chinese (`/zh`)**: https://hmgglobalgroup.com/zh | /zh/logistics | /zh/sourcing | /zh/consulting | /zh/guides | /zh/about | /zh/contact | /zh/legal
+
+## Full Documentation
+
+- [Complete Knowledge Base (llms-full.txt)](https://hmgglobalgroup.com/llms-full.txt): Exhaustive catalog of prestations, product specifications, cargo categories, Incoterms, FAQs, and contact channels.
+
+## Official Contact & Entity Facts
+
+- Legal Name: HMG Global Business Solutions SARL
+- Managing Director: Hamza Mohamed Hassan
+- Headquarters: Saline Ouest, Djibouti, Republic of Djibouti
+- Geographic Coverage: Djibouti, Port of Djibouti, Djibouti Free Zones, Djibouti–Ethiopia Corridor, Ethiopia
+- Languages Supported: French (FR), English (EN), Simplified Chinese (中文)
+- Operating Hours: Sunday–Thursday, 08:00–17:00 EAT (UTC+3), 24-hour business day response target
+- Phone / WhatsApp: +253 77 29 24 96 / +253 77 57 68 05
+- Email: contact@hmgglobalgroup.com | hamza@hmgglobalgroup.com
+- Website: https://hmgglobalgroup.com

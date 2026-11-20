@@ -1,0 +1,51 @@
+User-agent: *
+Allow: /
+Disallow: /merci
+Disallow: /merci.html
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+User-agent: GPTBot
+Allow: /
+Disallow: /merci
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /merci
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /merci
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /merci
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /merci
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /merci
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /merci
+Disallow: /en/thanks
+Disallow: /zh/thanks
+
+Sitemap: https://hmgglobalgroup.com/sitemap.xml
+# LLMs knowledge base: https://hmgglobalgroup.com/llms.txt
