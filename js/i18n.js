@@ -7,6 +7,7 @@
 (function () {
   'use strict';
   var EN = {
+"Logistique · Sourcing · Conseil": "Logistics · Sourcing · Consulting",
 "Logo HMG Global Business Solutions": "HMG Global Business Solutions logo",
 "Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "Analysis of the cargo, route, lead times and constraints of your operation.",
 "Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "A detailed offer listing the services included, the price and the provisional schedule.",
@@ -28,7 +29,7 @@
 "Logistique · Sourcing · Conseil — Djibouti": "Logistics · Sourcing · Consulting — Djibouti",
 "Djibouti · Corridor Éthiopie": "Djibouti · Ethiopia Corridor",
 "Vos opérations.": "Your operations.",
-"Notre engagement.": "Delivered with precision.",
+"Notre engagement.": "Our commitment.",
 "HMG Global Business Solutions prend en charge vos besoins en transport, logistique et approvisionnement. Basée à Djibouti, notre entreprise vous accompagne du départ de vos marchandises jusqu’à leur livraison, notamment sur le corridor Djibouti–Éthiopie.": "HMG Global Business Solutions handles your transport, logistics and supply operations. Based in Djibouti, the company oversees cargo from departure through final delivery, especially on the Djibouti–Ethiopia corridor.",
 "HMG Global Business Solutions prend en charge vos besoins en transport, logistique et approvisionnement, du départ de vos marchandises jusqu’à leur livraison.": "HMG Global Business Solutions handles your transport, logistics and supply needs, from the departure of your goods to their delivery.",
 "Découvrir nos services": "Explore services",
@@ -592,7 +593,7 @@
 "« Bonjour HMG Global Business Solutions, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un devis transport. »": "“Hello HMG Global Business Solutions, I am a client from your website and would like to contact you for more details regarding a shipping quote.”",
 "Bonjour HMG Global Business Solutions, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un produit.": "Hello HMG Global Business Solutions, I am a client from your website and would like to contact you for more details regarding a product.",
 "Bonjour HMG Global Business Solutions, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant mon projet.": "Hello HMG Global Business Solutions, I am a client from your website and would like to contact you for more details regarding my project.",
-"HMG Global Business Solutions prend en charge vos opérations de transport, de logistique et d’approvisionnement. Basée à Djibouti, l’entreprise assure un suivi complet du départ des marchandises jusqu’à leur livraison, notamment sur le corridor Djibouti–Éthiopie.": "HMG Global Business Solutions handles your transport, logistics and supply operations. Based in Djibouti, the company oversees the entire journey from cargo departure through final delivery, especially along the Djibouti–Ethiopia corridor.",
+"HMG Global Business Solutions prend en charge vos opérations de transport, de logistique et d’approvisionnement. Basée à Djibouti, l’entreprise assure un suivi complet du départ des marchandises jusqu’à leur livraison, notamment sur le corridor Djibouti–Éthiopie.": "HMG Global Business Solutions handles your logistics, transport and procurement for your business. Based in Djibouti, we coordinate each shipment from origin to final delivery, with a focus on the Djibouti–Ethiopia corridor.",
 "Prestation ponctuelle ou prise en charge globale : chaque intervention s’adapte à la marchandise, à l’itinéraire et aux délais convenus.": "Single service or end-to-end management: each operation is tailored to the cargo, route and agreed schedule.",
 "Les marchandises prises en charge": "Cargo handled",
 "Quelles marchandises HMG Global Business Solutions prend-elle en charge sur le corridor Djibouti–Éthiopie ?": "What types of cargo does HMG Global Business Solutions handle on the Djibouti–Ethiopia corridor?",
@@ -661,6 +662,7 @@
 "L’équipe HMG Global Business Solutions revient vers vous sous 24 h ouvrées (dimanche – jeudi, 08:00 – 17:00, heure de Djibouti). Pour toute urgence, un échange direct reste possible sur WhatsApp.": "The HMG Global Business Solutions team will respond within 24 business hours (Sunday – Thursday, 08:00 – 17:00, Djibouti time). For urgent inquiries, direct contact remains available on WhatsApp."
 };
   var ZH = {
+"Logistique · Sourcing · Conseil": "物流 · 采购 · 咨询",
 "Logo HMG Global Business Solutions": "HMG Global Business Solutions 标志",
 "Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "分析货物、路线、时效以及您业务的各项限制条件。",
 "Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "提供详细报价，明确所含服务、价格及预计时间表。",
@@ -1315,6 +1317,7 @@
 "L’équipe HMG Global Business Solutions revient vers vous sous 24 h ouvrées (dimanche – jeudi, 08:00 – 17:00, heure de Djibouti). Pour toute urgence, un échange direct reste possible sur WhatsApp.": "HMG Global Business Solutions 团队将在 24 个工作小时内与您联系（吉布提时间周日至周四 08:00–17:00）。如遇紧急事项，可直接通过 WhatsApp 沟通。"
 };
   var AM = {
+"Logistique · Sourcing · Conseil": "ሎጂስቲክስ · ግዥ · ምክር",
 "Logo HMG Global Business Solutions": "የHMG Global Business Solutions አርማ",
 "Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "የጭነቱን፣ የመስመሩን፣ የጊዜ ገደቡን እና የሥራዎን ገደቦች መተንተን።",
 "Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "የተካተቱትን አገልግሎቶች፣ ዋጋውን እና የታቀደውን የጊዜ ሰሌዳ የሚገልጽ ዝርዝር ቅናሽ።",
