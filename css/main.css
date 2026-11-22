@@ -918,7 +918,10 @@ html[data-theme="dark"] .float-card-frame{border-color:rgba(255,255,255,.16);box
 @keyframes hmgPrestBar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .prest-body{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;min-height:84px;transition:opacity .22s cubic-bezier(.22,1,.36,1),transform .22s cubic-bezier(.22,1,.36,1)}
 .prest-stage--no-cta .prest-body{grid-template-columns:1fr;gap:16px}
-.rows-split:has(.prest-stage){grid-template-columns:1fr;gap:34px}
+.rows-split:has(.prest-stage):not(.keep-split){grid-template-columns:1fr;gap:34px}
+.rows-split.keep-split{align-items:center}
+.keep-split .prest-body{grid-template-columns:1fr;gap:16px}
+.keep-split .prest-cta{justify-self:start}
 .prest-stage--compact .prest-body{min-height:56px}
 .prest-body.is-leaving{opacity:0;transform:translateX(-14px)}
 .prest-body.is-entering{opacity:0;transform:translateX(14px);transition:none}
