@@ -7,6 +7,7 @@
 (function () {
   'use strict';
   var EN = {
+"Logo HMG Global Business Solutions": "HMG Global Business Solutions logo",
 "Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "Analysis of the cargo, route, lead times and constraints of your operation.",
 "Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "A detailed offer listing the services included, the price and the provisional schedule.",
 "Réservation des moyens de transport, préparation des documents et coordination des intervenants.": "Booking of transport, preparation of documents and coordination of all parties involved.",
@@ -660,6 +661,7 @@
 "L’équipe HMG Global Business Solutions revient vers vous sous 24 h ouvrées (dimanche – jeudi, 08:00 – 17:00, heure de Djibouti). Pour toute urgence, un échange direct reste possible sur WhatsApp.": "The HMG Global Business Solutions team will respond within 24 business hours (Sunday – Thursday, 08:00 – 17:00, Djibouti time). For urgent inquiries, direct contact remains available on WhatsApp."
 };
   var ZH = {
+"Logo HMG Global Business Solutions": "HMG Global Business Solutions 标志",
 "Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "分析货物、路线、时效以及您业务的各项限制条件。",
 "Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "提供详细报价，明确所含服务、价格及预计时间表。",
 "Réservation des moyens de transport, préparation des documents et coordination des intervenants.": "预订运输资源、准备单证并协调各相关方。",
@@ -1313,6 +1315,7 @@
 "L’équipe HMG Global Business Solutions revient vers vous sous 24 h ouvrées (dimanche – jeudi, 08:00 – 17:00, heure de Djibouti). Pour toute urgence, un échange direct reste possible sur WhatsApp.": "HMG Global Business Solutions 团队将在 24 个工作小时内与您联系（吉布提时间周日至周四 08:00–17:00）。如遇紧急事项，可直接通过 WhatsApp 沟通。"
 };
   var AM = {
+"Logo HMG Global Business Solutions": "የHMG Global Business Solutions አርማ",
 "Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "የጭነቱን፣ የመስመሩን፣ የጊዜ ገደቡን እና የሥራዎን ገደቦች መተንተን።",
 "Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "የተካተቱትን አገልግሎቶች፣ ዋጋውን እና የታቀደውን የጊዜ ሰሌዳ የሚገልጽ ዝርዝር ቅናሽ።",
 "Réservation des moyens de transport, préparation des documents et coordination des intervenants.": "የትራንስፖርት ማስያዝ፣ የሰነዶች ዝግጅት እና የሚሳተፉ አካላትን ማስተባበር።",

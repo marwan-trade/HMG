@@ -69,7 +69,7 @@
     var closeBtn = modal.querySelector('.zoom-close');
     var actionLink = modal.querySelector('.zoom-home');
     if (titleEl) {
-      titleEl.textContent = T('Carte de visite officielle');
+      titleEl.textContent = T(activeKind === 'logo' ? 'Logo HMG Global Business Solutions' : 'Carte de visite officielle');
     }
     if (closeBtn) closeBtn.setAttribute('aria-label', T('Fermer'));
     if (actionLink) {
