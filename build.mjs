@@ -57,7 +57,7 @@ const IMAGE_ASSETS = [
   { src: 'src/assets/images/industrial_tools_workshop_1795160325914.jpg', slug: 'outillages-atelier-industriel', maxWidth: 1100, ogJpg: false },
   { src: 'src/assets/images/industrial_spare_parts_1795160326305.jpg', slug: 'pieces-fournitures-industrielles', maxWidth: 1100, ogJpg: false },
   { src: 'assets/conseil-hero.jpg', slug: 'conseil-entreprises-djibouti', maxWidth: 1400, ogJpg: true },
-  { src: 'assets/apropos-hero.jpg', slug: 'djibouti-vue-aerienne', maxWidth: 1400, ogJpg: true },
+  { src: 'assets/apropos-hero-port.jpg', slug: 'djibouti-vue-aerienne', maxWidth: 1400, ogJpg: true },
   { src: 'assets/apropos-locaux.jpg', slug: 'bureaux-hmg-djibouti', maxWidth: 1200, ogJpg: false },
   { src: 'assets/carte-logistique.jpg', slug: 'logistique-transit-djibouti', maxWidth: 900, ogJpg: false },
   { src: 'assets/container-truck.jpg', slug: 'transport-conteneurs-djibouti', maxWidth: 1000, ogJpg: false },
