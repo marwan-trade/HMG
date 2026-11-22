@@ -76,8 +76,10 @@
       if (activeKind === 'card') {
         actionLink.href = currentContactHref();
         actionLink.textContent = T('Demander un devis →');
+      } else {
+        actionLink.href = currentHomeHref();
+        actionLink.textContent = T('Voir l’accueil');
       }
-      actionLink.hidden = activeKind !== 'card';
     }
   }
 
