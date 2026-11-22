@@ -122,7 +122,7 @@ details.more .fields{padding:0 16px 16px}
 .how li::before{content:counter(s,decimal-leading-zero);font-weight:800;color:var(--orange);font-size:13px;min-width:22px;padding-top:1px}
 
 /* ---------- Pied de page ---------- */
-.footer{background:var(--navy-950);color:#9fb0c6;padding:64px 0 0;position:relative;overflow:hidden}
+.footer{background:linear-gradient(90deg,#061838 0%,#0a2350 55%,#071b3d 100%);color:#9fb0c6;padding:64px 0 0;position:relative;overflow:hidden}
 .footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px}
 .footer h5{color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
 .footer li{list-style:none;margin:9px 0;font-size:14px}
@@ -953,3 +953,7 @@ html[data-theme="dark"] .prest-text h3{color:#f4f7fb}
 html[data-theme="dark"] .prest-text p a{color:#ff9a55}
 
 
+
+html[data-theme="dark"] .footer{background:linear-gradient(90deg,#061633 0%,#091f46 55%,#071938 100%)}
+.logo[data-zoom-kind]{cursor:zoom-in}
+.zoom-stage[data-kind="logo"] img{max-width:min(760px,92%);height:auto;filter:invert(1) hue-rotate(185deg) brightness(2.2) saturate(.95)}
