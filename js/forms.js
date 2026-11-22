@@ -9,13 +9,13 @@
    ========================================================= */
 (function () {
   'use strict';
-  var WA = 'https://wa.me/25377292496?text=';
+  var WA = 'https://wa.me/25377576805?text=';
   var PRIMARY_EMAIL = 'https://formsubmit.co/contact@hmgglobalgroup.com';
   var CC_EMAIL = 'hamza@hmgglobalgroup.com';
   var MSG = {
-    logistique: 'Bonjour HMG, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un devis transport.',
-    sourcing: 'Bonjour HMG, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un produit.',
-    conseil: 'Bonjour HMG, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant mon projet.'
+    logistique: 'Bonjour HMG Global Business Solutions, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un devis transport.',
+    sourcing: 'Bonjour HMG Global Business Solutions, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant un produit.',
+    conseil: 'Bonjour HMG Global Business Solutions, je suis un client depuis votre site web et je souhaite vous contacter pour plus de détails concernant mon projet.'
   };
 
   // ---------- Formulaire de contact : champs selon le besoin
@@ -88,7 +88,7 @@
     var nextIn = f.querySelector('input[name="_next"]');
     if (nextIn && location.origin && location.origin !== 'null') {
       var p = location.pathname || '/';
-      var nextPath = /^\/en(\/|$)/.test(p) ? '/en/thanks' : /^\/zh(\/|$)/.test(p) ? '/zh/thanks' : '/merci';
+      var nextPath = /^\/en(\/|$)/.test(p) ? '/en/thanks' : /^\/zh(\/|$)/.test(p) ? '/zh/thanks' : /^\/am(\/|$)/.test(p) ? '/am/thanks' : '/merci';
       nextIn.value = location.origin + nextPath;
     }
     var file = f.querySelector('.file-in');
