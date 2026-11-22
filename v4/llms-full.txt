@@ -8,9 +8,10 @@
 - **Primary Territory**: Republic of Djibouti (Port of Djibouti, free zones, construction sites, industrial zones) and the Djibouti–Ethiopia Corridor (Addis Ababa & regional Ethiopian sites)
 - **Website**: https://hmgglobalgroup.com
 - **Primary Emails**: contact@hmgglobalgroup.com, hamza@hmgglobalgroup.com
-- **Telephone / WhatsApp**: +253 77 29 24 96 / +253 77 57 68 05
+- **Telephone**: +253 77 29 24 96 / +253 77 57 68 05
+- **WhatsApp**: +253 77 57 68 05
 - **Business Hours**: Sunday to Thursday, 08:00–17:00 (Djibouti time, UTC+3)
-- **Languages**: French, English, Simplified Chinese
+- **Languages**: French, English, Simplified Chinese, Amharic (አማርኛ)
 - **Core Commitments**:
   1. **Écoute (Listening)**: Precise understanding of client requirements.
   2. **Réactivité (Responsiveness)**: Fast response under 24 business hours.
@@ -60,7 +61,7 @@ International product sourcing, supplier qualification, commercial negotiation, 
 3. **Négociation des conditions**: Securing optimal purchasing, payment, and delivery terms under CIF, CFR, and FOB Incoterms.
 4. **Vente et fourniture**: Issuing clear commercial offers for requested goods.
 5. **Approvisionnement & suivi**: Managing purchase orders, production readiness, and tracking through reception in Djibouti.
-6. **Acheminement et livraison**: Seamless transport to the final destination in coordination with HMG Logistics & Transport.
+6. **Acheminement et livraison**: Seamless transport to the final destination in coordination with the Logistics & Transport division of HMG Global Business Solutions.
 
 ### Product & Material Families
 - **Aciers & produits sidérurgiques (Steel & Steel Products)**: Barres d’acier (steel bars), fers à béton HA (high-adhesion rebar), tubes & profilés (steel tubes & profiles), billettes & bobines (billets & steel coils).
@@ -93,20 +94,20 @@ Tailored advisory and operational setup support for companies and project owners
 **Q: What services does HMG Global Business Solutions provide in Djibouti?**
 A: HMG Global Business Solutions SARL operates three integrated business poles from Saline Ouest, Djibouti: (1) Logistics & Transport (sea freight, air freight, road transport, transit, port operations, warehousing, and distribution across Djibouti and Ethiopia); (2) Sourcing & Trading (identifying manufacturers, negotiating CIF/CFR/FOB terms, and supplying steel, rebar, tubes, cement, aggregates, industrial drums, tools, and spare parts); and (3) Business Consulting (company setup, administrative file support, operational organization, and growth in Djibouti).
 
-**Q: Does HMG handle freight on the Djibouti–Ethiopia corridor?**
-A: Yes. HMG organizes containerized (20 ft and 40 ft FCL/LCL), bulk, and breakbulk shipments arriving at the Port of Djibouti, coordinates port operations and transit formalities with licensed partners, and delivers directly via road transport to sites in Djibouti and Ethiopia.
+**Q: Does HMG Global Business Solutions handle freight on the Djibouti–Ethiopia corridor?**
+A: Yes. The Logistics & Transport division organizes containerized (20 ft and 40 ft FCL/LCL), bulk, and breakbulk shipments arriving at the Port of Djibouti, coordinates port operations and transit formalities with licensed partners, and delivers directly via road transport to sites in Djibouti and Ethiopia.
 
-**Q: Which products can HMG source and under what Incoterms?**
-A: HMG sources steel products (steel bars, HA rebar, tubes, profiles, billets, coils), construction materials (bagged or bulk cement, aggregates), and industrial supplies (steel drums, professional tools, valves, flanges, spare parts) under CIF, CFR, FOB, or direct Djibouti reception terms.
+**Q: Which products can HMG Global Business Solutions source and under what Incoterms?**
+A: The Sourcing & Trading division supplies steel products (steel bars, HA rebar, tubes, profiles, billets, coils), construction materials (bagged or bulk cement, aggregates), and industrial supplies (steel drums, professional tools, valves, flanges, spare parts) under CIF, CFR, FOB, or direct Djibouti reception terms.
 
-**Q: How can a business request a quote and how fast does HMG respond?**
-A: Businesses can submit specifications via https://hmgglobalgroup.com/contact, email contact@hmgglobalgroup.com or hamza@hmgglobalgroup.com, or message WhatsApp (+253 77 29 24 96). HMG responds within 24 business hours (Sunday–Thursday, 08:00–17:00 Djibouti time).
+**Q: How can a business request a quote and how fast does HMG Global Business Solutions respond?**
+A: Businesses can submit specifications via https://hmgglobalgroup.com/contact, email contact@hmgglobalgroup.com or hamza@hmgglobalgroup.com, or message WhatsApp (+253 77 57 68 05). Responses are issued within 24 business hours (Sunday–Thursday, 08:00–17:00 Djibouti time).
 
 ---
 
 ## 6. Operational Guides Reference Hub (https://hmgglobalgroup.com/guides)
 
-Structured operational reference published in French (`/guides`), English (`/en/guides`), and Simplified Chinese (`/zh/guides`):
+Structured operational reference published in French (`/guides`), English (`/en/guides`), Simplified Chinese (`/zh/guides`), and Amharic (`/am/guides`):
 
 ### Cargo Format Matrix (Port of Djibouti & Corridor)
 - **20’ FCL Container**: Dense cargo (short steel bars, heavy machinery parts, palletized cement sacks) hauled on standard sealed container chassis. Required docs: Bill of Lading, Commercial Invoice, Packing List, Certificate of Origin.
@@ -116,13 +117,14 @@ Structured operational reference published in French (`/guides`), English (`/en/
 - **Breakbulk (Conventional Cargo)**: 12 m steel bars, pipes, machinery, vehicles, and out-of-gauge crates hauled on reinforced flatbed trailers. Required docs: Breakbulk BL, Lifting/Dimension Plan, Technical Certificates.
 
 ### Incoterms Comparison for Djibouti Buyers
-- **FOB (Free On Board)**: Ocean freight and insurance arranged/paid by buyer/HMG; risk transfers on board vessel at loading port; ideal to control freight rates and consolidate suppliers.
+- **FOB (Free On Board)**: Ocean freight and insurance arranged/paid by the buyer or HMG Global Business Solutions; risk transfers on board vessel at loading port; ideal to control freight rates and consolidate suppliers.
 - **CFR (Cost & Freight)**: Main ocean freight paid to Port of Djibouti; cargo insurance covered by buyer; risk transfers at loading port.
 - **CIF (Cost, Insurance & Freight)**: Main ocean freight and minimum cargo insurance paid by seller to Port of Djibouti.
-- **Djibouti Delivery (Réception Djibouti)**: End-to-end sourcing, shipping, and handover coordinated by HMG as single point of contact to agreed reception in Djibouti.
+- **Djibouti Delivery (Réception Djibouti)**: End-to-end sourcing, shipping, and handover coordinated by HMG Global Business Solutions as a single point of contact to agreed reception in Djibouti.
 
 ### Essential Multilingual URLs
 - **FR**: `/`, `/logistique`, `/sourcing`, `/conseil`, `/guides`, `/a-propos`, `/contact`, `/mentions-legales`
 - **EN**: `/en`, `/en/logistics`, `/en/sourcing`, `/en/consulting`, `/en/guides`, `/en/about`, `/en/contact`, `/en/legal`
 - **ZH**: `/zh`, `/zh/logistics`, `/zh/sourcing`, `/zh/consulting`, `/zh/guides`, `/zh/about`, `/zh/contact`, `/zh/legal`
+- **AM**: `/am`, `/am/logistics`, `/am/sourcing`, `/am/consulting`, `/am/guides`, `/am/about`, `/am/contact`, `/am/legal`
 

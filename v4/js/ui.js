@@ -37,6 +37,174 @@
     syncThemeBtn();
   }
 
+  /* ---------- Modale Zoom (Carte de visite) ---------- */
+  var modal = null;
+  var activeKind = 'card';
+  var activeScale = 1;
+  var lastFocused = null;
+
+  function T(s) {
+    return (window.HMG_T && window.HMG_T(s)) || s;
+  }
+
+  function currentHomeHref() {
+    var p = location.pathname || '/';
+    if (/^\/en(\/|$)/.test(p)) return '/en';
+    if (/^\/zh(\/|$)/.test(p)) return '/zh';
+    if (/^\/am(\/|$)/.test(p)) return '/am';
+    return '/';
+  }
+
+  function currentContactHref() {
+    var p = location.pathname || '/';
+    if (/^\/en(\/|$)/.test(p)) return '/en/contact';
+    if (/^\/zh(\/|$)/.test(p)) return '/zh/contact';
+    if (/^\/am(\/|$)/.test(p)) return '/am/contact';
+    return '/contact';
+  }
+
+  function syncZoomTexts() {
+    if (!modal) return;
+    var titleEl = modal.querySelector('.zoom-title');
+    var closeBtn = modal.querySelector('.zoom-close');
+    var actionLink = modal.querySelector('.zoom-home');
+    if (titleEl) {
+      titleEl.textContent = T('Carte de visite officielle');
+    }
+    if (closeBtn) closeBtn.setAttribute('aria-label', T('Fermer'));
+    if (actionLink) {
+      if (activeKind === 'card') {
+        actionLink.href = currentContactHref();
+        actionLink.textContent = T('Demander un devis →');
+      } else {
+        actionLink.href = currentHomeHref();
+        actionLink.textContent = T('Voir l’accueil');
+      }
+    }
+  }
+
+  function applyZoomState() {
+    if (!modal) return;
+    var stage = modal.querySelector('.zoom-stage');
+    var img = modal.querySelector('.zoom-stage img');
+    stage.setAttribute('data-kind', activeKind);
+    stage.classList.toggle('is-zoomed', activeScale > 1);
+    img.style.transform = 'scale(' + activeScale + ')';
+
+    modal.querySelectorAll('[data-zoom-scale]').forEach(function (b) {
+      var on = parseFloat(b.getAttribute('data-zoom-scale')) === activeScale;
+      b.classList.toggle('is-on', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  function ensureModal() {
+    if (modal) return modal;
+    modal = document.createElement('div');
+    modal.className = 'zoom-modal';
+    modal.id = 'hmg-zoom-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-labelledby', 'hmg-zoom-title');
+    modal.hidden = true;
+    modal.innerHTML =
+      '<div class="zoom-dialog">' +
+        '<div class="zoom-head">' +
+          '<div class="zoom-title" id="hmg-zoom-title"></div>' +
+          '<div class="zoom-bar">' +
+            '<div class="zoom-seg" role="group">' +
+              '<button type="button" data-zoom-scale="1">100%</button>' +
+              '<button type="button" data-zoom-scale="1.5">150%</button>' +
+              '<button type="button" data-zoom-scale="2">200%</button>' +
+            '</div>' +
+            '<button type="button" class="zoom-close">&times;</button>' +
+          '</div>' +
+        '</div>' +
+        '<div class="zoom-stage"><img src="" alt=""></div>' +
+        '<div class="zoom-foot">' +
+          '<span>HMG Global Business Solutions SARL — Saline Ouest, Djibouti</span>' +
+          '<a class="zoom-home" href="/"></a>' +
+        '</div>' +
+      '</div>';
+
+    document.body.appendChild(modal);
+
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        closeZoom();
+        return;
+      }
+      var closeTrigger = e.target.closest('.zoom-close');
+      if (closeTrigger) {
+        closeZoom();
+        return;
+      }
+      var scaleBtn = e.target.closest('[data-zoom-scale]');
+      if (scaleBtn) {
+        activeScale = parseFloat(scaleBtn.getAttribute('data-zoom-scale')) || 1;
+        applyZoomState();
+        return;
+      }
+      if (e.target.closest('.zoom-stage img')) {
+        activeScale = activeScale > 1 ? 1 : 1.5;
+        applyZoomState();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && modal && !modal.hidden) closeZoom();
+    });
+
+    document.addEventListener('hmg:lang', syncZoomTexts);
+    return modal;
+  }
+
+  function openZoom(src, alt, kind) {
+    ensureModal();
+    lastFocused = document.activeElement;
+    activeKind = kind || 'card';
+    activeScale = 1;
+
+    var img = modal.querySelector('.zoom-stage img');
+    img.src = src;
+    img.alt = alt || 'HMG Global Business Solutions';
+
+    syncZoomTexts();
+    applyZoomState();
+    modal.hidden = false;
+    requestAnimationFrame(function () {
+      modal.classList.add('is-open');
+    });
+    document.body.style.overflow = 'hidden';
+    var closeBtn = modal.querySelector('.zoom-close');
+    if (closeBtn) closeBtn.focus();
+  }
+
+  function closeZoom() {
+    if (!modal || modal.hidden) return;
+    modal.classList.remove('is-open');
+    document.body.style.overflow = '';
+    setTimeout(function () {
+      if (modal) modal.hidden = true;
+    }, 180);
+    if (lastFocused && lastFocused.focus) {
+      lastFocused.focus();
+      lastFocused = null;
+    }
+  }
+
+  document.addEventListener('click', function (e) {
+    var zoomEl = e.target && e.target.closest && e.target.closest('[data-zoom-src]');
+    if (!zoomEl) return;
+    e.preventDefault();
+    var img = zoomEl.querySelector('img');
+    var src = zoomEl.getAttribute('data-zoom-src') || (img && img.getAttribute('src'));
+    if (!src) return;
+    var kind = zoomEl.getAttribute('data-zoom-kind') || 'card';
+    var alt = (img && img.getAttribute('alt')) || zoomEl.getAttribute('aria-label') || 'HMG Global Business Solutions';
+    openZoom(src, alt, kind);
+  });
+
   /* ---------- Curseur personnalisé (cercle + point) ---------- */
   var fine = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   if (!fine) return;
@@ -54,7 +222,7 @@
   var tx = -100, ty = -100, rx = -100, ry = -100;
   var visible = false, rafId = 0;
 
-  var INTERACTIVE_SEL = 'a, button, summary, [role="button"], .tags span, label.choice, label.need, label.chk, label.drop, .faq-item summary, .lang a';
+  var INTERACTIVE_SEL = 'a, button, summary, [role="button"], .logo, .float-card-btn, .tags span, label.choice, label.need, label.chk, label.drop, .faq-item summary, .lang a';
   var TEXT_SEL = 'input[type="text"], input[type="email"], input[type="tel"], input[type="date"], textarea, select';
 
   function render() {

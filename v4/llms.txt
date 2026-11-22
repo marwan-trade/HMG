@@ -6,7 +6,7 @@ HMG Global Business Solutions SARL provides integrated import/export freight, po
 
 ## Canonical Pages
 
-- [Accueil](https://hmgglobalgroup.com/): Overview of HMG's three business poles, 5-step operational workflow, and cargo types handled in Djibouti and on the Djibouti–Ethiopia corridor.
+- [Accueil](https://hmgglobalgroup.com/): Overview of HMG Global Business Solutions’ three business poles, 5-step operational workflow, and cargo types handled in Djibouti and on the Djibouti–Ethiopia corridor.
 - [Logistique & Transport](https://hmgglobalgroup.com/logistique): End-to-end maritime freight, air freight, road transport, transit formalities, port operations, loading/unloading, handling, warehousing, distribution, and vehicle/equipment transport.
 - [Sourcing & Négoce](https://hmgglobalgroup.com/sourcing): Supplier sourcing, manufacturer selection, commercial negotiation (CIF, CFR, FOB, Djibouti reception), steel products, cement, aggregates, industrial drums, tools, and parts.
 - [Conseil & Accompagnement](https://hmgglobalgroup.com/conseil): Business setup preparation, administrative filing support, operational organization (premises and supply), business development, and project follow-up in Djibouti.
@@ -19,6 +19,7 @@ HMG Global Business Solutions SARL provides integrated import/export freight, po
 
 - **English (`/en`)**: https://hmgglobalgroup.com/en | /en/logistics | /en/sourcing | /en/consulting | /en/guides | /en/about | /en/contact | /en/legal
 - **Simplified Chinese (`/zh`)**: https://hmgglobalgroup.com/zh | /zh/logistics | /zh/sourcing | /zh/consulting | /zh/guides | /zh/about | /zh/contact | /zh/legal
+- **Amharic (አማርኛ) (`/am`)**: https://hmgglobalgroup.com/am | /am/logistics | /am/sourcing | /am/consulting | /am/guides | /am/about | /am/contact | /am/legal
 
 ## Full Documentation
 
@@ -30,8 +31,9 @@ HMG Global Business Solutions SARL provides integrated import/export freight, po
 - Managing Director: Hamza Mohamed Hassan
 - Headquarters: Saline Ouest, Djibouti, Republic of Djibouti
 - Geographic Coverage: Djibouti, Port of Djibouti, Djibouti Free Zones, Djibouti–Ethiopia Corridor, Ethiopia
-- Languages Supported: French (FR), English (EN), Simplified Chinese (中文)
+- Languages Supported: French (FR), English (EN), Simplified Chinese (中文), Amharic (አማርኛ)
 - Operating Hours: Sunday–Thursday, 08:00–17:00 EAT (UTC+3), 24-hour business day response target
-- Phone / WhatsApp: +253 77 29 24 96 / +253 77 57 68 05
+- Phone: +253 77 29 24 96 / +253 77 57 68 05
+- WhatsApp: +253 77 57 68 05
 - Email: contact@hmgglobalgroup.com | hamza@hmgglobalgroup.com
 - Website: https://hmgglobalgroup.com
