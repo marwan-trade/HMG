@@ -72,15 +72,6 @@ const CLEAN_ROUTES = Object.freeze({
   '/zh/contact': 'zh/contact.html',
   '/zh/legal': 'zh/legal.html',
   '/zh/thanks': 'zh/thanks.html',
-  '/am': 'am/index.html',
-  '/am/logistics': 'am/logistics.html',
-  '/am/sourcing': 'am/sourcing.html',
-  '/am/consulting': 'am/consulting.html',
-  '/am/guides': 'am/guides.html',
-  '/am/about': 'am/about.html',
-  '/am/contact': 'am/contact.html',
-  '/am/legal': 'am/legal.html',
-  '/am/thanks': 'am/thanks.html',
 });
 
 const BLOCKED_EXACT = new Set([
@@ -100,7 +91,7 @@ const BLOCKED_PREFIXES = ['/node_modules', '/dist', '/v2', '/v3', '/.'];
 
 function send404(req, res) {
   const lower = (req.path || '').toLowerCase();
-  const rel = /^\/en(\/|$)/.test(lower) ? 'en/404.html' : /^\/zh(\/|$)/.test(lower) ? 'zh/404.html' : /^\/am(\/|$)/.test(lower) ? 'am/404.html' : '404.html';
+  const rel = /^\/en(\/|$)/.test(lower) ? 'en/404.html' : /^\/zh(\/|$)/.test(lower) ? 'zh/404.html' : '404.html';
   res.status(404).setHeader('Cache-Control', 'no-store').setHeader('X-Robots-Tag', 'noindex, nofollow');
   return res.sendFile(path.join(DIST_DIR, rel));
 }
@@ -128,9 +119,6 @@ app.use((req, res, next) => {
   }
   if (lower === '/zh/index' || lower === '/zh/index.html') {
     return res.redirect(301, '/zh' + query);
-  }
-  if (lower === '/am/index' || lower === '/am/index.html') {
-    return res.redirect(301, '/am' + query);
   }
 
   if (lower.endsWith('.html')) {
@@ -218,7 +206,7 @@ for (const [route, fileName] of Object.entries(CLEAN_ROUTES)) {
     if (!fs.existsSync(target)) {
       return send404(req, res);
     }
-    if (route === '/merci' || route === '/en/thanks' || route === '/zh/thanks' || route === '/am/thanks') {
+    if (route === '/merci' || route === '/en/thanks' || route === '/zh/thanks') {
       res.setHeader('X-Robots-Tag', 'noindex, nofollow');
     }
     res.setHeader('Cache-Control', 'public, max-age=300, must-revalidate');

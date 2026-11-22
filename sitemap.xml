@@ -2,16 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <!-- Home (FR / EN / ZH / AM) -->
+  <!-- Home (FR / EN / ZH) -->
   <url>
     <loc>https://hmgglobalgroup.com/</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/"/>
     <image:image>
       <image:loc>https://hmgglobalgroup.com/media/port-djibouti-hero.jpg</image:loc>
@@ -20,48 +19,34 @@
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/"/>
   </url>
 
   <!-- Logistics & Transport -->
   <url>
     <loc>https://hmgglobalgroup.com/logistique</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/logistique"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/logistics"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/logistics"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/logistics"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/logistique"/>
     <image:image>
       <image:loc>https://hmgglobalgroup.com/media/logistique-corridor-djibouti.jpg</image:loc>
@@ -70,48 +55,34 @@
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en/logistics</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/logistique"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/logistics"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/logistics"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/logistics"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/logistique"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh/logistics</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/logistique"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/logistics"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/logistics"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/logistics"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/logistique"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am/logistics</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/logistique"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/logistics"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/logistics"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/logistics"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/logistique"/>
   </url>
 
   <!-- Sourcing & Trading -->
   <url>
     <loc>https://hmgglobalgroup.com/sourcing</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/sourcing"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/sourcing"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/sourcing"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/sourcing"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/sourcing"/>
     <image:image>
       <image:loc>https://hmgglobalgroup.com/media/sourcing-acier-negoce-djibouti.jpg</image:loc>
@@ -120,48 +91,34 @@
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en/sourcing</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/sourcing"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/sourcing"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/sourcing"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/sourcing"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/sourcing"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh/sourcing</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/sourcing"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/sourcing"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/sourcing"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/sourcing"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/sourcing"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am/sourcing</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/sourcing"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/sourcing"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/sourcing"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/sourcing"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/sourcing"/>
   </url>
 
   <!-- Consulting & Support -->
   <url>
     <loc>https://hmgglobalgroup.com/conseil</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/conseil"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/consulting"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/consulting"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/conseil"/>
     <image:image>
       <image:loc>https://hmgglobalgroup.com/media/conseil-entreprises-djibouti.jpg</image:loc>
@@ -170,48 +127,34 @@
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en/consulting</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/conseil"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/consulting"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/consulting"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/conseil"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh/consulting</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/conseil"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/consulting"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/consulting"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/consulting"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/conseil"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am/consulting</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/conseil"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/consulting"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/consulting"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/consulting"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/conseil"/>
   </url>
 
   <!-- Operational Guides (B2B Knowledge Hub) -->
   <url>
     <loc>https://hmgglobalgroup.com/guides</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/guides"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/guides"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/guides"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/guides"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/guides"/>
     <image:image>
       <image:loc>https://hmgglobalgroup.com/media/port-djibouti-conteneurs.jpg</image:loc>
@@ -220,48 +163,34 @@
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en/guides</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/guides"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/guides"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/guides"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/guides"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/guides"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh/guides</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/guides"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/guides"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/guides"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/guides"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/guides"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am/guides</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/guides"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/guides"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/guides"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/guides"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/guides"/>
   </url>
 
   <!-- About -->
   <url>
     <loc>https://hmgglobalgroup.com/a-propos</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/a-propos"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/about"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/about"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/a-propos"/>
     <image:image>
       <image:loc>https://hmgglobalgroup.com/media/djibouti-vue-aerienne.jpg</image:loc>
@@ -270,127 +199,86 @@
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en/about</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/a-propos"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/about"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/about"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/a-propos"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh/about</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/a-propos"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/about"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/about"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/about"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/a-propos"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am/about</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/a-propos"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/about"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/about"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/a-propos"/>
   </url>
 
   <!-- Contact -->
   <url>
     <loc>https://hmgglobalgroup.com/contact</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/contact"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/contact"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/contact"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en/contact</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/contact"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/contact"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/contact"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh/contact</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/contact"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/contact"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/contact"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/contact"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/contact"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am/contact</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/contact"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/contact"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/contact"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/contact"/>
   </url>
 
   <!-- Legal Notice -->
   <url>
     <loc>https://hmgglobalgroup.com/mentions-legales</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/legal"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/legal"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/legal"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/mentions-legales"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/en/legal</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/legal"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/legal"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/legal"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/mentions-legales"/>
   </url>
   <url>
     <loc>https://hmgglobalgroup.com/zh/legal</loc>
-    <lastmod>2026-11-21</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/mentions-legales"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/legal"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/legal"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/legal"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/mentions-legales"/>
-  </url>
-  <url>
-    <loc>https://hmgglobalgroup.com/am/legal</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://hmgglobalgroup.com/mentions-legales"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hmgglobalgroup.com/en/legal"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://hmgglobalgroup.com/zh/legal"/>
-    <xhtml:link rel="alternate" hreflang="am" href="https://hmgglobalgroup.com/am/legal"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://hmgglobalgroup.com/mentions-legales"/>
   </url>
 </urlset>
