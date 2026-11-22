@@ -533,6 +533,7 @@ span.f{display:block;font-size:13px;font-weight:600;color:#33445a;margin-bottom:
 .rows5 h3{font-size:16.5px}
 .rows5 p{color:var(--muted);font-size:14.5px}
 .conseil-gallery{margin-top:26px}
+.conseil-gallery .side-ph{height:auto;aspect-ratio:1400/764}
 /* À propos */
 .about-hero{padding-bottom:80px}
 .about-hero h1{max-width:640px}
