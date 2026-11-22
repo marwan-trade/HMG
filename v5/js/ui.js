@@ -52,7 +52,7 @@
     if (/^\/en(\/|$)/.test(p)) return '/en';
     if (/^\/zh(\/|$)/.test(p)) return '/zh';
     if (/^\/am(\/|$)/.test(p)) return '/am';
-    return '/';
+    return 'index.html';
   }
 
   function currentContactHref() {
@@ -60,7 +60,7 @@
     if (/^\/en(\/|$)/.test(p)) return '/en/contact';
     if (/^\/zh(\/|$)/.test(p)) return '/zh/contact';
     if (/^\/am(\/|$)/.test(p)) return '/am/contact';
-    return '/contact';
+    return 'contact.html';
   }
 
   function syncZoomTexts() {
@@ -76,8 +76,10 @@
       if (activeKind === 'card') {
         actionLink.href = currentContactHref();
         actionLink.textContent = T('Demander un devis →');
+      } else {
+        actionLink.href = currentHomeHref();
+        actionLink.textContent = T('Voir l’accueil');
       }
-      actionLink.hidden = activeKind !== 'card';
     }
   }
 

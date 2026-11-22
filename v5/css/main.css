@@ -957,4 +957,3 @@ html[data-theme="dark"] .prest-text p a{color:#ff9a55}
 html[data-theme="dark"] .footer{background:linear-gradient(90deg,#061633 0%,#091f46 55%,#071938 100%)}
 .logo[data-zoom-kind]{cursor:zoom-in}
 .zoom-stage[data-kind="logo"] img{max-width:min(760px,92%);height:auto;filter:invert(1) hue-rotate(185deg) brightness(2.2) saturate(.95)}
-.zoom-home[hidden]{display:none}
