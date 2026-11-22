@@ -7,6 +7,16 @@
 (function () {
   'use strict';
   var EN = {
+"Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "Analysis of the cargo, route, lead times and constraints of your operation.",
+"Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "A detailed offer listing the services included, the price and the provisional schedule.",
+"Réservation des moyens de transport, préparation des documents et coordination des intervenants.": "Booking of transport, preparation of documents and coordination of all parties involved.",
+"Acheminement de la marchandise, passage portuaire et formalités jusqu’à l’arrivée sur site.": "Movement of the cargo, port handling and formalities until arrival on site.",
+"Remise finale au lieu convenu, avec un suivi régulier jusqu’à la réception.": "Final delivery to the agreed place, with regular follow-up until receipt.",
+"Transmission du connaissement et de la facture commerciale avant l’arrivée du navire pour préparer le dossier.": "The bill of lading and commercial invoice are sent before the vessel arrives so the file can be prepared.",
+"Débarquement de la cargaison au Port de Djibouti et contrôle des colis à la sortie du navire.": "Unloading of the cargo at the Port of Djibouti and tallying of packages as they leave the vessel.",
+"Dédouanement et formalités de transit assurés avec des transitaires agréés.": "Customs clearance and transit formalities handled with licensed forwarding agents.",
+"Chargement sur camion ou sur plateau adapté au format et au poids de la cargaison.": "Loading onto a truck or flatbed suited to the size and weight of the cargo.",
+"Acheminement jusqu’au site final, avec un point d’avancement à chaque étape.": "Transport to the final site, with a progress update at every stage.",
 "Accueil": "Home",
 "Nos services": "Services",
 "Logistique & Transport": "Logistics & Transport",
@@ -650,6 +660,16 @@
 "L’équipe HMG Global Business Solutions revient vers vous sous 24 h ouvrées (dimanche – jeudi, 08:00 – 17:00, heure de Djibouti). Pour toute urgence, un échange direct reste possible sur WhatsApp.": "The HMG Global Business Solutions team will respond within 24 business hours (Sunday – Thursday, 08:00 – 17:00, Djibouti time). For urgent inquiries, direct contact remains available on WhatsApp."
 };
   var ZH = {
+"Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "分析货物、路线、时效以及您业务的各项限制条件。",
+"Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "提供详细报价，明确所含服务、价格及预计时间表。",
+"Réservation des moyens de transport, préparation des documents et coordination des intervenants.": "预订运输资源、准备单证并协调各相关方。",
+"Acheminement de la marchandise, passage portuaire et formalités jusqu’à l’arrivée sur site.": "货物运输、港口作业及各项手续，直至抵达目的地。",
+"Remise finale au lieu convenu, avec un suivi régulier jusqu’à la réception.": "在约定地点完成最终交付，并持续跟踪直至签收。",
+"Transmission du connaissement et de la facture commerciale avant l’arrivée du navire pour préparer le dossier.": "在船舶抵港前提交提单和商业发票，以便提前准备文件。",
+"Débarquement de la cargaison au Port de Djibouti et contrôle des colis à la sortie du navire.": "在吉布提港卸货，并在出舱时清点核对货物。",
+"Dédouanement et formalités de transit assurés avec des transitaires agréés.": "通过持证货运代理办理清关及转运手续。",
+"Chargement sur camion ou sur plateau adapté au format et au poids de la cargaison.": "根据货物尺寸和重量装上合适的卡车或平板车。",
+"Acheminement jusqu’au site final, avec un point d’avancement à chaque étape.": "运送至最终地点，并在每个阶段通报进展。",
 "Accueil": "首页",
 "Nos services": "服务项目",
 "Logistique & Transport": "物流与运输",
@@ -1293,6 +1313,16 @@
 "L’équipe HMG Global Business Solutions revient vers vous sous 24 h ouvrées (dimanche – jeudi, 08:00 – 17:00, heure de Djibouti). Pour toute urgence, un échange direct reste possible sur WhatsApp.": "HMG Global Business Solutions 团队将在 24 个工作小时内与您联系（吉布提时间周日至周四 08:00–17:00）。如遇紧急事项，可直接通过 WhatsApp 沟通。"
 };
   var AM = {
+"Analyse de la marchandise, de l’itinéraire, des délais et des contraintes de votre opération.": "የጭነቱን፣ የመስመሩን፣ የጊዜ ገደቡን እና የሥራዎን ገደቦች መተንተን።",
+"Offre détaillée précisant les prestations incluses, le tarif et le calendrier prévisionnel.": "የተካተቱትን አገልግሎቶች፣ ዋጋውን እና የታቀደውን የጊዜ ሰሌዳ የሚገልጽ ዝርዝር ቅናሽ።",
+"Réservation des moyens de transport, préparation des documents et coordination des intervenants.": "የትራንስፖርት ማስያዝ፣ የሰነዶች ዝግጅት እና የሚሳተፉ አካላትን ማስተባበር።",
+"Acheminement de la marchandise, passage portuaire et formalités jusqu’à l’arrivée sur site.": "ጭነቱን ማጓጓዝ፣ የወደብ ሥራዎች እና ሥርዓቶች ቦታው እስኪደርስ ድረስ።",
+"Remise finale au lieu convenu, avec un suivi régulier jusqu’à la réception.": "በተስማማበት ቦታ የመጨረሻ ርክክብ፣ እስከ መቀበያው ድረስ መደበኛ ክትትል።",
+"Transmission du connaissement et de la facture commerciale avant l’arrivée du navire pour préparer le dossier.": "ፋይሉን ለማዘጋጀት መርከቡ ከመድረሱ በፊት የጭነት ሰነዱን እና የንግድ ደረሰኙን መላክ።",
+"Débarquement de la cargaison au Port de Djibouti et contrôle des colis à la sortie du navire.": "በጅቡቲ ወደብ ጭነቱን ማራገፍ እና ከመርከቡ ሲወጡ ዕቃዎቹን መቁጠርና መፈተሽ።",
+"Dédouanement et formalités de transit assurés avec des transitaires agréés.": "የጉምሩክ ማስለቀቅ እና የትራንዚት ሥርዓቶች ፈቃድ ካላቸው አስተላላፊዎች ጋር ይከናወናሉ።",
+"Chargement sur camion ou sur plateau adapté au format et au poids de la cargaison.": "ለጭነቱ መጠንና ክብደት በሚስማማ የጭነት መኪና ወይም ጠፍጣፋ ተሳቢ ላይ መጫን።",
+"Acheminement jusqu’au site final, avec un point d’avancement à chaque étape.": "እስከ መጨረሻው ቦታ ማጓጓዝ፣ በእያንዳንዱ ደረጃ የሂደት ሪፖርት።",
 "Accueil": "መነሻ",
 "Nos services": "አገልግሎቶች",
 "Logistique & Transport": "ሎጂስቲክስ እና ትራንስፖርት",

@@ -917,7 +917,8 @@ html[data-theme="dark"] .float-card-frame{border-color:rgba(255,255,255,.16);box
 .prest-stage.is-paused .prest-bar.is-running{animation-play-state:paused}
 @keyframes hmgPrestBar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .prest-body{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center;min-height:84px;transition:opacity .22s cubic-bezier(.22,1,.36,1),transform .22s cubic-bezier(.22,1,.36,1)}
-.prest-stage--no-cta .prest-body,.rows-split .prest-body{grid-template-columns:1fr;gap:16px}
+.prest-stage--no-cta .prest-body{grid-template-columns:1fr;gap:16px}
+.rows-split:has(.prest-stage){grid-template-columns:1fr;gap:34px}
 .prest-stage--compact .prest-body{min-height:56px}
 .prest-body.is-leaving{opacity:0;transform:translateX(-14px)}
 .prest-body.is-entering{opacity:0;transform:translateX(14px);transition:none}
