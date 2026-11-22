@@ -40,6 +40,7 @@ const IMAGE_ASSETS = [
   { src: 'public/assets/aistudio/HMG_-_LOGO-01_3cacb87a.png', slug: 'hmg-logo', maxWidth: 640, ogJpg: false, keepPng: true },
   { src: 'public/assets/aistudio/IMG-20261118-WA0051_1017669b.jpg', slug: 'port-djibouti-hero', maxWidth: 1376, ogJpg: true },
   { src: 'public/assets/aistudio/F627EEEA-FA64-4E65-BEF7-447E4DD370DB_51897636.png', slug: 'terminal-conteneurs-djibouti', maxWidth: 1200, ogJpg: false },
+  { src: 'assets/fret-maritime-port.jpg', slug: 'navire-porte-conteneurs-port', maxWidth: 1200, ogJpg: false },
   { src: 'assets/carte-sourcing.jpg', slug: 'sourcing-materiaux-djibouti', maxWidth: 1000, ogJpg: false },
   { src: 'public/assets/aistudio/188AC975-36D4-4DD0-96CB-9BB5565EEB3F_6d704711.png', slug: 'conseil-implantation-djibouti', maxWidth: 1200, ogJpg: false },
   { src: 'assets/logistique-hero.jpg', slug: 'logistique-corridor-djibouti', maxWidth: 1400, ogJpg: true },
